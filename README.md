@@ -12,19 +12,19 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/cDPH4tl.png" title="source: imgur.com"/></td>
-        <td><a href="">Introdução ao Protocolo HTTP</a></td>
+        <td><a href="https://github.com/rafaelq80/cookiebook_spring/blob/main/01_http/README.md">Introdução ao Protocolo HTTP</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/38hZn7Z.png" title="source: imgur.com" /></td>
-        <td><a href="">Banco de dados com MySQL</a></td>
+        <td><a href="https://github.com/rafaelq80/cookiebook_spring/blob/main/02_mysql/README.md">Banco de dados com MySQL</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/XFnTrpX.png" title="source: imgur.com"/></td>
-        <td><a href="">Spring</a></td>
+        <td><a href="https://github.com/rafaelq80/cookiebook_spring/blob/main/03_spring/README.md">Spring</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/fu9QxlT.png" title="source: imgur.com"/></td>
-        <td><a href="">Git Flow</a></td>
+        <td><a href="https://github.com/rafaelq80/cookiebook_spring/blob/main/04_fluxo_git/README.md">Git Flow</a></td>
     </tr>
 </table>
 
