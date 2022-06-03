@@ -204,7 +204,7 @@ Para exemplificar outros tipos de consultas personalizadas, vamos utilizar como 
 
 | Palavra | Descrição                                                    | Exemplo                                                      |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Between**   | Seleciona os valores dentro de um determinado intervalo. Os valores podem ser números, texto ou datas. | **findByPreco(BigDecimal inicio, BigDecimal fim)**<br />*SELECT * FROM tb_produtos WHERE preco BETWEEN inicio AND fim;<br /><br />**findByDataValidade(LocalDate inicio, LocalDate fim)**<br /> *SELECT * FROM tb_produtos WHERE data_validade BETWEEN inicio AND fim;* |
+| **Between**   | Seleciona os valores dentro de um determinado intervalo. Os valores podem ser números, texto ou datas. | **findByPrecoBetween(BigDecimal inicio, BigDecimal fim)**<br />*SELECT * FROM tb_produtos WHERE preco BETWEEN inicio AND fim;<br /><br />**findByDataValidadeBetween(LocalDate inicio, LocalDate fim)**<br /> *SELECT * FROM tb_produtos WHERE data_validade BETWEEN inicio AND fim;* |
 | **In**        | Permite que você especifique uma lista com vários critérios que a consulta deverá procurar. Ao implementar o Método na Classe Controladora, será necessário converter os parâmetros em uma Collection.| **findByPrecoIn(List<BigDecimal> preco)**<br />*SELECT * FROM tb_produtos WHERE preco IN (List01, List02, List03);*                     |
 
 <h3>Busca textual específica</h3>
