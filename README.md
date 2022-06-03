@@ -7,8 +7,8 @@
 
 <table width="100%">
 	<tr>
-        <td width="10%"><img src="https://github.com/rafaelq80/cookiebook_spring/blob/main/00_ambiente/README.md" title="source: imgur.com" width="8%"/></td>
-        <td width="90%"><a href="">Preparação do Ambiente</a></td>
+        <td width="10%"><img src="" title="source: imgur.com" width="8%"/></td>
+        <td width="90%"><a href="https://github.com/rafaelq80/cookiebook_spring/blob/main/00_ambiente/README.md">Preparação do Ambiente</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/cDPH4tl.png" title="source: imgur.com"/></td>
