@@ -1,14 +1,14 @@
 <div align="center">
     <img src="https://i.imgur.com/w8tTOuT.png" title="source: imgur.com" /> 
 </div>
-# <img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com" width="40px"/>Bootcamp - Java Full Stack 
+<img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com" width="40px"/>Bootcamp - Java Full Stack 
 
 ## Conteúdos
 
 <table width="100%">
 	<tr>
-        <td width="5%"><img src="mudar" title="source: imgur.com" width="8%"/></td>
-        <td width="95%"><a href="">Preparação do Ambiente</a></td>
+        <td width="10%"><img src="" title="source: imgur.com" width="8%"/></td>
+        <td width="90%"><a href="">Preparação do Ambiente</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/cDPH4tl.png" title="source: imgur.com"/></td>
