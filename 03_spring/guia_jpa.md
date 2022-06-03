@@ -71,8 +71,8 @@
 | @TituloEleitoral                                    | Valida o Título de Eleitor           |
 | @CreditCardNumber(ignoreNonDigitCharacters = false) | Valida o numero do Cartão de Crédito |
 
-<h2>2. Spring Data JPA
-<h3>2.1 Principais Métodos
+<h2>2. Spring Data JPA</h2>
+<h3>2.1 Principais Métodos</h3>
 <br />
 
 
@@ -103,7 +103,7 @@
 	</tr>
 </table>
 
-<br /><br /><br /><br /><br /><br /><br />
+<br />
 
 <h2>3. Query Methods</h2>
 
