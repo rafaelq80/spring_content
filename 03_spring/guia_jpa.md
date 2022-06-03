@@ -55,6 +55,10 @@
 		<td><code>@Future <br /> @FutureOrPresent
 		<td>Valida se um valor de data está no futuro ou no futuro, incluindo o presente.
 	</tr>
+	<tr>
+		<td><code>@Digits
+		<td>Valida a parte inteira e decimal de um numero. Esta anotação geralmente é utilizada com numeros no formato BigDecimal. Esta anotação possui 2 parâmetros: <b>integer</b> (Numero de digitos da parte inteira) e <b>fraction</b> (Numero de digitos da parte decimal).
+	</tr>
 </table>
 
 <h3>1.2 Annotations - hibernate.validation</h3>
