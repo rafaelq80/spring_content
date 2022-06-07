@@ -17,8 +17,6 @@ Para efetuar o Deploy vamos precisar fazer algumas modificações em nosso proje
 
 Para criar a Documentação da API no Swagger, utilize o **Guia de Configuração do SPringdoc**.
 
-<br /><br /><br /><br />
-
 <h2 id="local">👣Passo 02 - Testar a API no seu computador</h2>
 
 1. Execute a sua aplicação localmente pelo STS
@@ -38,18 +36,12 @@ Para criar a Documentação da API no Swagger, utilize o **Guia de Configuraçã
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="128px"/> | <p align="justify"> **IMPORTANTE:**  *Não altere a senha do usuário root. Os instrutores da sua turma utilizarão este usuário para abrir, testar e corrigir a sua aplicação*. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
+<br />
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="230px"/> | <p align="justify"> **ATENÇÃO:**  *Lembre-se que antes de fazer o Deploy é fundamental que a API esteja rodando e sem erros*. Não faça os testes via Swagger porquê o usuário root (em memória, não utiliza todos os recursos da Spring Security, em especial o Token.</p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
-
-
-
 <h2>👣 Passo 03 - Criar uma conta grátis no Heroku</h2>
-
-
 
 1) Acesse o endereço: **https://www.heroku.com**
 
@@ -90,23 +82,16 @@ Para criar a Documentação da API no Swagger, utilize o **Guia de Configuraçã
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="70px"/> | <p align="justify"> **ATENÇÃO:**  *Conclua todas etapas do processo de criação da conta no Heroku antes de avançar para o próximo passo do Deploy*. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-<br /><br /><br />
-
 10. Caso o Heroku exiba a mensagem abaixo, solicitando a ativação do **MFA (Multi-Factor Authentication)**, não habilite esta opção. Clique no link **Later**, como mostra a figura abaixo, no item marcado em vermelho.
 
-    <div align="center">
-    <img src="https://i.imgur.com/OejMn66.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/OejMn66.png" title="source: imgur.com" /></div>
 
-
+<br />
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="200px"/> | <p align="justify"> **ATENÇÃO:**  *Não habilite em sua conta no Heroku a opção MFA (Multi-Factor Authentication), ou seja, o login em 2 etapas. Em alguns servidores não é possível efetuar login via Heroku Client com o MFA habilitado*. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-<br /><br />
-
 <h2>👣 Passo 04 - Instalação do Node.js</h2>
-
-
 
 1) Acesse o endereço: **https://nodejs.org/en/**
 
@@ -117,15 +102,13 @@ Para criar a Documentação da API no Swagger, utilize o **Guia de Configuraçã
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="120px"/> | <p align="justify"> **ATENÇÃO:** No momento em que este e-book foi escrito, a versão LTS mais atual do Node.js era a versão 16.13.0. Hoje pode ser que a versão mais atual seja outra* </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
+<br />
 
 | <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="72px"/> | <p align="justify"> **DICA:** *Caso você tenha alguma dúvida quanto a instalação do Node.js, consulte o Guia de Instalação do Node. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-<br /><br /><br /><br /><br /><br /><br />
 
 <h2>👣 Passo 05 - Instalação do Heroku Client</h2>
-
 
 
 Para instalar e executar os comandos do Heroku Client utilizaremos o **Prompt de comando do Windows (cmd)**. 
@@ -174,12 +157,10 @@ O arquivo **system.properties**, tem o objetivo de informar ao Heroku qual a ver
 
 <div align="center"><img width="230px" src="https://i.imgur.com/MSsuQzt.png" title="source: imgur.com" /></div>
 
-
+<br />
 
 | <img src="https://i.imgur.com/vVDBDG0.png" title="source: imgur.com" width="250px"/> | <p align="justify"> **ALERTA DE BSM:** *Mantenha a atenção aos detalhes ao criar o arquivo system.properties. Um erro muito comum é não criar o arquivo na pasta raíz do projeto. Outro erro comum é digitar o nome do arquivo errado.* </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-<br /><br />
 
 2. Na Guia **Package explorer**, clique com o botão direito do mouse sobre a pasta do projeto (indicada em azul) e clique na opção **New 🡢 File**.
 
@@ -189,7 +170,6 @@ O arquivo **system.properties**, tem o objetivo de informar ao Heroku qual a ver
 
 <div align="center"><img width="65%" src="https://i.imgur.com/BRDFhtJ.png" title="source: imgur.com" /></div>
 
-
 4. No arquivo **system.properties** indique a versão do Java que será utilizada pelo Heroku através da linha abaixo:
 
 <div align="left"><img width="65%" src="https://i.imgur.com/uTbohOW.png" title="source: imgur.com" /></div>
@@ -197,7 +177,6 @@ O arquivo **system.properties**, tem o objetivo de informar ao Heroku qual a ver
 ```properties
 java.runtime.version=11
 ```
-
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="108px"/> | <p align="justify"> **ATENÇÃO:** *A versão do Java informada no arquivo system.properties deve ser a mesma informada no arquivo pom.xml.* </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -221,8 +200,6 @@ No arquivo, **pom.xml**, vamos adicionar as linhas abaixo, com a dependência do
 	<artifactId>postgresql</artifactId>
 </dependency> 
 ```
-
-<br /><br /><br /><br /><br /><br />
 
 <h2>👣 Passo 08 - Configurar o Banco de Dados na Nuvem</h2>
 
@@ -251,8 +228,6 @@ O grande benefício dos Profiles é simplificar a troca entre a configuração L
 <div align="center"><img src="https://i.imgur.com/Q1s30nm.png" title="source: imgur.com" width="65%"/></div>
 
 4. Vamos criar o segundo arquivo. No lado esquerdo superior, na Guia **Package explorer**, na Source Folder **src/main/resources**, clique com o botão direito do mouse e clique na opção **New 🡢 File**.
-
-<br /><br />
 
 5. Em **File name**, digite o nome do primeiro arquivo (**application-prod.properties**) e clique no botão **Finish**.
 
@@ -285,7 +260,6 @@ springdoc.packagesToScan=com.generation.blogpessoal.controller
 <div align="center"><img src="https://i.imgur.com/a69IptD.png" title="source: imgur.com" /></div>
 
 <h3>8.3 Configuração do arquivo application-prod.properties</h3>
-
 
 1. No arquivo, **application-prod.properties**,  insira as linhas abaixo e salve o arquivo:
 
@@ -426,11 +400,7 @@ heroku create nomedoprojeto
 
 <div><img src="https://i.imgur.com/P0KazWd.png" title="source: imgur.com" /></div>
 
-
-
 <h2>👣 Passo 12 - Adicionar o Banco de dados no Heroku</h2>
-
-
 
 1. Para adicionar um **Banco de Dados PostgreSQL** no seu projeto, digite o comando abaixo, onde o **nomedoprojeto** deve ser substituído pelo nome do projeto que foi criado no passo anterior.
 
@@ -444,11 +414,7 @@ heroku addons:create heroku-postgresql:hobby-dev -a nomedoprojeto
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="120px"/> | <p align="justify"> **ATENÇÃO:** *O processo do Deploy enviará apenas a sua aplicação para a nuvem, logo o Banco de dados que será criado nesta etapa estará vazio. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
-
 <h2>👣Passo 13 - Efetuar o Deploy</h2>
-
-
 
 1. Para concluir o Deploy, digite o comando: 
 
@@ -459,7 +425,6 @@ git push heroku master
 2. Ao finalizar o Deploy, será exibida a mensagem **BUILD SUCESS** (destacado em verde na imagem) e será exibido o endereço (**https://nomedoprojeto.herokuapp.com**) para acessar a API na Internet (destacado em amarelo na imagem)
 
 <div align="center"><img src="https://i.imgur.com/gEUe301.png?1" title="source: imgur.com" /></div>
-
 
 <h2>👣 Passo 14 - Configurar o fuso horário</h2>
 
@@ -481,11 +446,8 @@ heroku config:add TZ="America/Sao_Paulo" --app nomedoprojeto
 
 4. Utilize o **Checklist do Blog Pessoal** para verificar se o projeto está completo.
 
-   
-
+	
 <h3>15.1 Testar a Aplicação no Insomnia</h3>
-
-
 
 1. Abra o Insomnia e acesse a Workspace **Blog Pessoal**.
 2. Crie uma pasta chamada **Blog Pessoal** e arraste as 3 pastas (Postagem, Tema e Usuario) para dentro dela.
@@ -507,9 +469,6 @@ heroku config:add TZ="America/Sao_Paulo" --app nomedoprojeto
 9. Atualize o caminho de todas requisições da pasta **Blog Pessoal - Heroku** 
 10. Execute a requisição Login para acessar a API
 11. Continue os testes conforme as orientações do **Checklist do Projeto Blog Pessoal**.
-
-
-
 
 <h2 id="update">Atualizar o Deploy no Heroku </h2>
 
