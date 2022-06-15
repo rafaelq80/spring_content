@@ -7,7 +7,7 @@
 
 <table width="100%">
 	<tr>
-        <td width="10%"><img src="" title="source: imgur.com" width="8%"/></td>
+        <td width="10%"><img src="https://i.imgur.com/PHgmbCh.png" title="source: imgur.com" /></td>
         <td width="90%"><a href="00_ambiente/README.md">Preparação do Ambiente</a></td>
     </tr>
     <tr>
