@@ -5,7 +5,6 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 <h3>Requisitos</h3>
 
-
  - Java Development (JDK) Versão 17 ou superior
  - Winrar caso dê erro na descompactação via Java
 
@@ -141,11 +140,11 @@ Para configurar o seu Navegador de preferência, siga os passos abaixo:
 
  2. Na janela <b>Preferences</b>, no menu do lado esquerdo, clique na opção <b>General 🡒 Web Browser</b>
 
-<div align="center"><img width="480px" src="https://i.imgur.com/rmabNB5.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/rmabNB5.png" title="source: imgur.com" /></div>
 
  3. Na janela que será aberta, marque a opção <b>Use external web browser</b>, escolha o Navegador de sua preferência e clique no botão <b>Apply and Close</b>.
 
-<div align="center"><img width="480px" src="https://i.imgur.com/LhbFWYU.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/LhbFWYU.png" title="source: imgur.com" /></div>
 
 <table width="100%">
     <tr>
@@ -172,13 +171,13 @@ Esta mensagem indica que o tamanho do Buffer do console (O numero de caracteres 
 
   2. Na janela <b>Preferences</b>, no menu do lado esquerdo, clique na opção <b>Run/Debug 🡒 Console</b>
 
-<div align="center"><img width="75%" src="https://i.imgur.com/KV86gVA.png" title="source: imgur.com" /></div>
+<div align="center"><img  src="https://i.imgur.com/KV86gVA.png" title="source: imgur.com" /></div>
 
   3. Na janela que será aberta, altere a opção Console buffer size (characters) para **1000000** e clique no botão **Apply and Close**
 
-<div align="center"><img width="75%" src="https://i.imgur.com/3jerbIb.png" title="source: imgur.com" /></div>
+<div align="center"><img  src="https://i.imgur.com/3jerbIb.png" title="source: imgur.com" /></div>
 
-<h3>Erro 02 - Alertas de Segurança do Windows
+<h3>Erro 02 - Alertas de Segurança do Windows</h3>
 
 Alerta de Segurança do Windows (janelas abaixo), informa que o STS e o JDK não tem autorização para acessar as redes públicas e privadas. Como o STS em conjunto com o JDK simulam um Servidor WEB é necessário que ambos possuam este acesso.
 
