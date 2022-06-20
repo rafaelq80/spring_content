@@ -11,12 +11,9 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 <h2>Passo 01 - Instalação</h3>
 
-
  1. Acesse o site: https://spring.io/tools
 
 <div align="center"><img src="https://i.imgur.com/i6hVnE6.png" title="source: imgur.com" /></div>
-
-<br /><br /><br /><br /><br /><br />
 
  2. Faça o download do STS for Windows, conforme indicado na figura abaixo:
 
@@ -41,7 +38,7 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 7. Caso seja exibida a mensagem abaixo, significa que você já descompactou o STS na pasta onde você fez o download. Siga para o passo 9.
 
-   <div align="center"><img src="https://i.imgur.com/x0fnPV9.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/x0fnPV9.png" title="source: imgur.com" /></div>
 
 8. Observe que na pasta onde você salvou o instalador do STS, será criada uma pasta com o nome: **sts-4.14.1.RELEASE** (a versão pode ser diferente)
 
@@ -65,26 +62,23 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 <h3>Erro de descompactação - item 6</h3>
 
-
 Caso ocorra algum erro no processo de descompactação do STS através do Java, você pode utilizar o aplicativo **Winrar** para descompactar o STS. 
 
   1. Faça o download do **Winrar** (https://www.win-rar.com/) e instale o aplicativo
 
   3. Descompacte o arquivo: **spring-tool-suite-4-4.14.1.RELEASE-e4.23.0-win32.win32.x86_64.self-extracting.jar** (a versão pode ser diferente) clicando com o botão direito do mouse sobre o arquivo e no menu que será aberto, clique na opção **extract here**. 
 
-     <div align="center"><img src="https://i.imgur.com/XupoR15.png" title="source: imgur.com" width="50%"/></div>
+<div align="center"><img src="https://i.imgur.com/XupoR15.png" title="source: imgur.com" width="50%"/></div>
 
   4. Observe que será descompactado um arquivo chamado **contents.zip**. 
 
-     <div align="center"><img src="https://i.imgur.com/3YzmuvY.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/3YzmuvY.png" title="source: imgur.com" width="80%"/></div>
 
   5. Descompacte este arquivo clicando com o botão direito do mouse sobre ele, e no menu, clique na opção **extract here**.
 
 <div align="center"><img src="https://i.imgur.com/PStC7ow.png" title="source: imgur.com" width="50%"/></div>
 
 5. Siga as instruções do passo a passo da instalação a partir do item 8
-
-<br /><br />
 
 <h2>Passo 02 - Configurando o STS para utilizar o Java 17</h2>
 
@@ -127,8 +121,6 @@ C:\Program Files\Java\jdk-17.0.3.1
 
 <div align="center"><img src="https://i.imgur.com/rg7xnEE.png" title="source: imgur.com" width="80%"/></div>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
  8. Na janela <b>Installed JREs</b>, deixe selecionado o Java - versão 17 que você acabou de adicionar e clique botão <b>Apply and Close</b> para concluir.
 
 <div align="center"><img src="https://i.imgur.com/vCwSN6d.png" title="source: imgur.com" width="85%"/></div>
@@ -164,8 +156,6 @@ Para configurar o seu Navegador de preferência, siga os passos abaixo:
 
  4. Após executar o seu projeto Spring, clique no Botão **Open Browser** <img src="https://i.imgur.com/rRFLAir.png" title="source: imgur.com" /> para abrir  a sua aplicação no Navegador configurado.
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
 <h2>Resolução de Problemas - Spring no STS</h2>
 
 <h3>Erro 01 - Ansi Console</h3>
@@ -190,7 +180,6 @@ Esta mensagem indica que o tamanho do Buffer do console (O numero de caracteres 
 
 <h3>Erro 02 - Alertas de Segurança do Windows
 
-
 Alerta de Segurança do Windows (janelas abaixo), informa que o STS e o JDK não tem autorização para acessar as redes públicas e privadas. Como o STS em conjunto com o JDK simulam um Servidor WEB é necessário que ambos possuam este acesso.
 
 <div align="center"><img src="https://i.imgur.com/HJyTzfr.png" title="source: imgur.com" /></div>
@@ -201,3 +190,6 @@ Alerta de Segurança do Windows (janelas abaixo), informa que o STS e o JDK não
 
 Para corrigir o problema, marque as duas opções de acesso (**Redes Privadas e Redes Públicas**) e clique no botão **Permitir Acesso** em ambas as janelas.
 
+<br /><br />
+
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
