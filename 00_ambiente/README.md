@@ -7,8 +7,8 @@
 
 1. <a href="01_install_java_17.md" >Guia de Instalação - Java 17</a>
 2. <a href="02_install_sts.md" >Guia de Instalação - STS</a>
-3. <a href="" >Guia de Instalação - MySQL</a>
-4. <a href="" >Guia de Reinstalação - MySQL (Esqueceu a senha do MySQL)</a>
-5. <a href="" >Guia de Instalação - Insomnia</a>
-6. <a href="" >Guia de Instalação - VSCode</a>
-7. <a href="" >Guia de Instalação - Node</a>
+3. <a href="03_install_mysql.md" >Guia de Instalação - MySQL</a>
+4. <a href="04_uninstall_mysql.md" >Guia de Reinstalação - MySQL (Esqueceu a senha do MySQL)</a>
+5. <a href="05_install_Insomnia.md" >Guia de Instalação - Insomnia</a>
+6. <a href="06_install_vscode.md" >Guia de Instalação - VSCode</a>
+7. <a href="07_install_node.md" >Guia de Instalação - Node</a>
