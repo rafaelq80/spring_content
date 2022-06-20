@@ -25,7 +25,6 @@
 5. Dê um duplo clique sobre o arquivo para iniciar o instalador.
 
 
-
 <h2>Passo 02 - Instalação e configuração</h2>
 
 1. Na janela **Setup**, clique no botão **Next** para continuar.
@@ -39,8 +38,6 @@
 3. Na janela **Progress**, aguarde a conclusão da instalação. Caso seja solicitada a confirmação da instalação, clique em **OK** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/oYFXvrt.png" title="source: imgur.com" /></div>
-
-<br /><br /><br />
 
 4. Na janela **Complete**, clique no botão **Close** para concluir.
 
@@ -73,8 +70,6 @@ C:\Program Files\Java\jdk-17.0.3.1
 
 <div align="center"><img src="https://i.imgur.com/AKAyetx.png" title="source: imgur.com" width="80%"/></div>
 
-<br /><br /><br /><br /><br />
-
 6. Na janela **Editar variável de ambiente**, clique no botão **Novo**
 
 <div align="center"><img src="https://i.imgur.com/QItxQVO.png" title="source: imgur.com" width="75%"/></div>
@@ -101,3 +96,6 @@ java -version
 
 <div align="left"><img src="https://i.imgur.com/7YpGPDy.png" title="source: imgur.com" /></div>
 
+<br /><br />
+
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
