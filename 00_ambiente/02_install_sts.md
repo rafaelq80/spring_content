@@ -48,7 +48,7 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 11. Na próxima janela, informe a pasta onde o STS irá criar a **Workspace** (Pasta onde serão salvos os projetos Spring).
 
-<div align="center"><img src="https://i.imgur.com/0GZqiau.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/0GZqiau.png" title="source: imgur.com" /></div>
 
 12. Mantenha a pasta padrão (<b><i>C:\Users\seu usuário\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE</i></b>), marque a opção **Use this as the default and do not ask again** e clique no botão **Launch** (a versão pode ser diferente).
 13. A instalação está concluída!
@@ -68,15 +68,15 @@ Caso ocorra algum erro no processo de descompactação do STS através do Java, 
 
   3. Descompacte o arquivo: **spring-tool-suite-4-4.14.1.RELEASE-e4.23.0-win32.win32.x86_64.self-extracting.jar** (a versão pode ser diferente) clicando com o botão direito do mouse sobre o arquivo e no menu que será aberto, clique na opção **extract here**. 
 
-<div align="center"><img src="https://i.imgur.com/XupoR15.png" title="source: imgur.com" width="50%"/></div>
+<div align="center"><img src="https://i.imgur.com/XupoR15.png" title="source: imgur.com" /></div>
 
   4. Observe que será descompactado um arquivo chamado **contents.zip**. 
 
-<div align="center"><img src="https://i.imgur.com/3YzmuvY.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/3YzmuvY.png" title="source: imgur.com" /></div>
 
   5. Descompacte este arquivo clicando com o botão direito do mouse sobre ele, e no menu, clique na opção **extract here**.
 
-<div align="center"><img src="https://i.imgur.com/PStC7ow.png" title="source: imgur.com" width="50%"/></div>
+<div align="center"><img src="https://i.imgur.com/PStC7ow.png" title="source: imgur.com" /></div>
 
 5. Siga as instruções do passo a passo da instalação a partir do item 8
 
@@ -88,11 +88,11 @@ Caso ocorra algum erro no processo de descompactação do STS através do Java, 
 
  2. Na janela <b>Preferences</b>, no menu do lado esquerdo, clique na opção <b>Java 🡒 Installed JREs</b>.
 
-<div align="center"><img  src="https://i.imgur.com/nLEwh9M.png" title="source: imgur.com" width="90%"/></div>
+<div align="center"><img  src="https://i.imgur.com/nLEwh9M.png" title="source: imgur.com" /></div>
 
  3. Na janela <b>Installed JREs</b>, clique botão <b>Add...</b>
 
-<div align="center"><img src="https://i.imgur.com/xlXlkzl.png" title="source: imgur.com" width="90%"/></div>
+<div align="center"><img src="https://i.imgur.com/xlXlkzl.png" title="source: imgur.com" /></div>
 
  4. Na janela <b>Add JRE</b>, selecione a opção **Standard VM** e clique no botão <b>Next</b>.
 
@@ -100,11 +100,11 @@ Caso ocorra algum erro no processo de descompactação do STS através do Java, 
 
  5. Na próxima tela, clique no botão <b>Directory...</b>.
 
-<div align="center"><img src="https://i.imgur.com/rAxAIDA.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/rAxAIDA.png" title="source: imgur.com" /></div>
 
  6. Na janela <b>Selecionar pasta</b>, localize a pasta onde o **Java - versão 17** foi instalado (***C:\Program Files\Java\jdk-17.0.3.1***) e clique no botão <b>Selecionar pasta</b>.
 
-<div align="center"><img src="https://i.imgur.com/aauLJoV.png" title="source: imgur.com" width="75%"/></div>
+<div align="center"><img src="https://i.imgur.com/aauLJoV.png" title="source: imgur.com" /></div>
 
 ```Bash
 C:\Program Files\Java\jdk-17.0.3.1
@@ -119,11 +119,11 @@ C:\Program Files\Java\jdk-17.0.3.1
 
   7. Para finalizar, clique no botão <b>Finish</b>.
 
-<div align="center"><img src="https://i.imgur.com/rg7xnEE.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/rg7xnEE.png" title="source: imgur.com" /></div>
 
  8. Na janela <b>Installed JREs</b>, deixe selecionado o Java - versão 17 que você acabou de adicionar e clique botão <b>Apply and Close</b> para concluir.
 
-<div align="center"><img src="https://i.imgur.com/vCwSN6d.png" title="source: imgur.com" width="85%"/></div>
+<div align="center"><img src="https://i.imgur.com/vCwSN6d.png" title="source: imgur.com" /></div>
 
 <h2>Passo 03 - Configurar o botão Browser</h2>
 
