@@ -50,34 +50,34 @@ Para criar a Documentação da API no Swagger, utilize o **Guia de Configuraçã
 2. Crie a sua conta grátis no Heroku clicando no botão **SIGN UP FOR FREE**.
 3. Preencha os dados do formulário e clique no botão **CREATE FREE ACCOUNT**.
 
-   <div align="center"><img src="https://i.imgur.com/yp46vWx.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/yp46vWx.png" title="source: imgur.com" width="80%"/></div>
 
 4. Será exibida a mensagem abaixo informando que você receberá uma mensagem no seu e-mail para ativar a sua conta no Heroku. Acesse o seu e-mail e ative a sua conta.
 
-   <div align="center"><img src="https://i.imgur.com/d1YV3RK.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/d1YV3RK.png" title="source: imgur.com" width="80%"/></div>
 
 5. O e-mail que você receberá será semelhante a imagem abaixo. Clique no link indicado em vermelho para ativar a sua nova conta
 
-   <div align="center"><img src="https://i.imgur.com/cgeQPVF.png" title="source: imgur.com" width="85%"/></div>
+<div align="center"><img src="https://i.imgur.com/cgeQPVF.png" title="source: imgur.com" width="85%"/></div>
 
 6. Será aberta a janela abaixo para criar a senha da sua conta. Crie uma senha e clique no botão **SET PASSWORD AND LOGIN**.
 
-   <div align="center"><img src="https://i.imgur.com/j3hWcWD.png" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/j3hWcWD.png" title="source: imgur.com" width="80%"/></div>
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="70px"/> | <p align="justify"> **ATENÇÃO:**  *A senha deve ter no mínimo 8 caracteres e pelo menos 1 letra maiúscula, 1 caracter especial e 1 numero*. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 7. Será exibida a tela de Boas Vindas. Clique no botão **CLICK HERE TO PROCEED**.
 
-   <div align="center"><img src="https://i.imgur.com/0RtgWeI.png?1" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/0RtgWeI.png?1" title="source: imgur.com" /></div>
 
 8. Na próxima tela, concorde com os termos de uso da plataforma clicando no botão **Accept**.
 
-   <div align="center"><img src="https://i.imgur.com/0pRIHhl.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/0pRIHhl.png" title="source: imgur.com" /></div>
 
 9. Você será redirecionado para o **Dashboard do Heroku**. Agora você está pronto para criar as suas aplicações na Nuvem do Heroku.
 
-   <div align="center"><img src="https://i.imgur.com/MtxGolw.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/MtxGolw.png" title="source: imgur.com" /></div>
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="70px"/> | <p align="justify"> **ATENÇÃO:**  *Conclua todas etapas do processo de criação da conta no Heroku antes de avançar para o próximo passo do Deploy*. </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -219,9 +219,7 @@ O grande benefício dos Profiles é simplificar a troca entre a configuração L
 | <img src="https://i.imgur.com/vVDBDG0.png" title="source: imgur.com" width="250px"/> | <p align="justify"> **ALERTA DE BSM:** *Mantenha a atenção aos detalhes ao criar os arquivos application-dev.properties e application-prod.properties. Cuidado para não se equivocar ao nomear os arquivos ou criar em um pacote diferente.* </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-
 2. Vamos criar o primeiro arquivo. No lado esquerdo superior, na Guia **Package explorer**, na Source Folder **src/main/resources**, clique com o botão direito do mouse e clique na opção **New 🡢 File**.
-
 
 3) Em **File name**, digite o nome do primeiro arquivo (**application-dev.properties**) e clique no botão **Finish**.
 
@@ -287,12 +285,8 @@ spring.jackson.time-zone=Brazil/East
 
 Para o Deploy, devemos deixar a linha **spring.profiles.active** configurada com a opção **prod**.
 
-
-
 | <img src="https://i.imgur.com/vVDBDG0.png" title="source: imgur.com" width="400px"/> | <p align="justify"> **ALERTA DE BSM:** *Mantenha a atenção aos detalhes ao criar os perfis do Banco de Dados. Um erro muito comum é tentar executar o seu projeto no STS com o Perfil prod habilitado no arquivo application.properties. Com o perfil prod habilitado, o projeto não será inicializado.* </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/conteudoGeneration/backend_blog_pessoal/tree/19-blog_pessoal_Deploy_Heroku" target="_blank"><b>Código fonte: Projeto finalizado</b></a>
 
@@ -445,7 +439,6 @@ heroku config:add TZ="America/Sao_Paulo" --app nomedoprojeto
 3. Sua aplicação abrirá o **Swagger**. 
 
 4. Utilize o **Checklist do Blog Pessoal** para verificar se o projeto está completo.
-
 	
 <h3>15.1 Testar a Aplicação no Insomnia</h3>
 
@@ -559,3 +552,7 @@ git push heroku master
 git push -f heroku master
 ```
 19. Se todas as opções acima falharem, verifique se o erro não está no projeto Spring.
+
+<br /><br />
+	
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
