@@ -79,5 +79,9 @@ Neste material, o Passo 11 foi adaptado para o Deploy do Projeto Integrador via 
 
 14. Clique no botão **View** para abrir a aplicação.
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="150px"/> | <p align="justify"> **ATENÇÃO:** *Caso aconteça algum erro no processo do Deploy será exibida a mensagem: Build failed!.  Verifique o seu código e tente novamente.</p> |
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <p align="justify"> **ATENÇÃO:** *Caso aconteça algum erro no processo do Deploy será exibida a mensagem: Build failed!.  Verifique o seu código e tente novamente.</p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br /><br />
+	
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
