@@ -31,6 +31,7 @@
 
 <h2><img src="https://i.imgur.com/XFnTrpX.png" title="source: imgur.com" width="35px"/>Anexos</h2>
 
-01. <a href="guia_jpa.md" >Guia do JPA</a>
-02. <a href="deploy_client.md" >Projeto Blog Pessoal - Deploy no Heroku via Heroku Client</a>
-03. <a href="deploy_organizacao.md" >Projeto Integrador - Deploy no Heroku - Git Organization</a>
+01. <a href="java_tipos.md" >Tipos de dados - Java</a>
+02. <a href="guia_jpa.md" >Guia do JPA</a>
+03. <a href="deploy_client.md" >Projeto Blog Pessoal - Deploy no Heroku via Heroku Client</a>
+04. <a href="deploy_organizacao.md" >Projeto Integrador - Deploy no Heroku - Git Organization</a>
