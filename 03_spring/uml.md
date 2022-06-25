@@ -1,20 +1,14 @@
-﻿<h1>Diagrama de Classes</h1>
-
-
+<h1>Diagrama de Classes</h1>
 
 A **Programação Orienteda à Objetos (POO)** é um paradigma baseado no conceito de envolver dados (**Atributos**), e comportamentos (**Métodos**), relacionados aqueles dados, em uma coleção chamada Objetos, que são construídos de um conjunto de “planos de construção” (**Métodos Construtores**), definidos por uma pessoa Desenvolvedora ou por um Analista de Sistemas, chamados de **Classes**. Uma classe é como uma planta de construção que define a estrutura para objetos, que são instâncias concretas daquela classe.
 
-Da mesma forma que o **DER**, Diagrama de Entidades e Relacionamentos apresentam o nosso Modelo de dados Relacional de forma gráfica, o **Diagrama de Classes** representam de forma gráfica as nossas Classes e as suas relações. A **UML** (Unified Modeling Language), que **significa** Linguagem Unificada de Modelagem é uma linguagem padrão para modelagem orientada a objetos, utilizada na construção dos Diagramas de Classes e outros tipos de Diagramas como Casos de Uso, Sequência e etc.
+Da mesma forma que o **DER**, Diagrama de Entidades e Relacionamentos apresentam o nosso Modelo de dados Relacional de forma gráfica, o **Diagrama de Classes** representam de forma gráfica as nossas Classes e as suas relações. A **UML** (Unified Modeling Language), que **significa** Linguagem Unificada de Modelagem, é a linguagem padrão para modelagem de sistemas que seguem o paradigma da Orientação a Objetos. A UML é utilizada na construção dos Diagramas de Classes e outros tipos de Diagramas como o Diagrama de Casos de Uso, Diagrama de Sequência e etc. Neste material vamos focar no Diagrama de Classes.
 
 <div align="center"><img src="https://i.imgur.com/UMOWspD.png" title="source: imgur.com" /></div>
 
 Observe no Diagrama de Classe acima que podemos visualizar todos os Métodos e Atributos que compõem a Classe Cat, inclusive a visibilidade, simplificando processo de implementação.
 
-<br /><br />
-
 <h2>Relações entre objetos</h2>
-
-
 
 Quando falamos de uma única Classe, tudo fica muito simples, entretanto, nenhuma aplicação Orientada a Objetos se resume em apenas uma Classe, e além disso, os Objetos gerados por estas Classes possuem relações entre si, de acordo com o planejamento do projeto. Para simplificar o entendimento destas relações, construímos os Diagramas de Classes com as suas respectivas Relações. Vamos conhecer os tipos de relação entre os Objetos:
 
@@ -60,8 +54,6 @@ Em Diagramas UML a relação de agregação é mostrada como uma linha e um diam
 
 No exemplo acima, um objeto Departamento contém diversos professores e os objetos professores continuam existindo mesmo sem o objeto departamento.
 
-
-
 <h3>Composição</h3>
 
 A composição é um tipo específico de agregação, onde um objeto é composto de um ou mais instâncias de outro. A distinção entre esta relação e as outras é que o componente só pode existir como parte de um contêiner. No UML a relação de composição é desenhada do mesmo modo que para a agregação, mas com um diamante preenchido na base da flecha.
@@ -70,20 +62,6 @@ A composição é um tipo específico de agregação, onde um objeto é composto
 
 No exemplo acima, a universidade consiste de departamentos e os departamentos só existem enquanto o objeto universidade existir.
 
+<br /><br />	
 
-
-<h2>Resumindo...</h2>
-
-
-
-<div align="center"><img src="https://i.imgur.com/1QDcyZp.png" title="source: imgur.com" /></div>
-
-| Relação           | Descrição                                                    |
-| ----------------- | ------------------------------------------------------------ |
-| **Associação**    | Objeto A sabe sobre objeto B. Classe A depende de B;         |
-| **Agregação**     | Objeto A sabe sobre objeto B, e consiste de B. Classe A depende de B; |
-| **Composição**    | Objeto A sabe sobre objeto B, consiste de B, e gerencia o ciclo de vida de B. Classe A depende de B; |
-| **Implementação** | Classe A define métodos declarados na interface B. objetos de A podem ser tratados como B. Classe A depende de B; |
-| **Herança**       | Classe A herda a interface e implementação da classe B mas pode estende-la. Objetos de A podem ser tratados como B. Classe A depende de B. |
-
-
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
