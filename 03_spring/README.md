@@ -36,3 +36,8 @@
 03. <a href="uml.md" >Diagrama de Classes</a>
 04. <a href="deploy_client.md" >Projeto Blog Pessoal - Deploy no Heroku via Heroku Client</a>
 05. <a href="deploy_organizacao.md" >Projeto Integrador - Deploy no Heroku - Git Organization</a>
+
+<br /><br />
+	
+<div align="center"><a href="../README.md"><img src="https://i.imgur.com/kfHCxif.png" title="source: imgur.com" width="5%"/></a></div>
+<div align="center">Home</div>
