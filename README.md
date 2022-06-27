@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/fu9QxlT.png" title="source: imgur.com"/></td>
-        <td><a href="04_fluxo_git/README.md">Git Flow</a></td>
+        <td><a href="04_fluxo_git/README.md">Fluxo de trabalho Git</a></td>
     </tr>
 </table>
 
