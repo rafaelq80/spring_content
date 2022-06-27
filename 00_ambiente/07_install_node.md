@@ -1,12 +1,14 @@
 ﻿<h1>Guia de Instalação do Node</h1>
 
 1.  Acesse o site do node: **https://nodejs.org/en/** e clique no link para efetuar o download da versão **LTS** .
+
 <div align="center"><img src="https://i.imgur.com/AixlDJE.png" title="source: imgur.com" /></div>
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="120px"/> | <p align="justify"> **ATENÇÃO:** No momento em que este guia foi escrito, a versão LTS mais atual do Node era a versão 16.15.0 LTS. Ao utilizar este guia no futuro, pode ser que a versão mais atual seja outra* </p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 2. Após efetuar o download, execute o instalador do Node.
+
 3. Ao abrir o instalador, caso seja exibida a mensagem abaixo, clique em **OK** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/TdwimxP.png" title="source: imgur.com" /></div>
@@ -48,6 +50,7 @@
 <div align="center"><img src="https://i.imgur.com/xj8I3W3.png" title="source: imgur.com" /></div>
 
 13. Digite o comando **cmd** para abrir o **Prompt de comando do Windows**.
+  
 14. Verifique se o **Node** está instalado através do comando:
 
 ```bash
