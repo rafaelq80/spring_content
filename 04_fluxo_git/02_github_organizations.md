@@ -1,6 +1,4 @@
-﻿<h1>Criando uma Organização no Github</h1>
-
-
+<h1>Criando uma Organização no Github</h1>
 
 As organizações são contas compartilhadas onde empresas e projetos de  código aberto podem colaborar em muitos projetos de uma vez. Os  proprietários e administradores podem gerenciar o acesso de integrantes  aos dados e projetos da organização com recursos avançados  administrativos e de segurança.
 
@@ -32,21 +30,13 @@ No projeto Integrador, a Organização será composta por 3 Repositórios:
 	</tr>
 </table>
 
-
-
 <h2>Passo 01 - Preparação do ambiente</h2>
 
-
-
 1. Crie uma conta de e-mail gratuita com o nome do projeto (Gmail).
+
 2. Crie uma conta gratuita no Github utilizando o e-mail criado com o nome do projeto.
 
-
-
-
 <h2>Passo 02 - Criando a Organização e adicionando os Membros</h2>
-
-
 
 Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo criou.
 
@@ -58,19 +48,15 @@ Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo
 
 <div align="center"><img src="https://i.imgur.com/EboZUR7.png?1" title="source: imgur.com" /></div>
 
-<br /><br /><br />
-
 3. Na próxima tela, configure com os dados do seu projeto.
 
 <div align="center"><img src="https://i.imgur.com/OFViqzW.png" title="source: imgur.com" /></div>
 
-<br /><br /><br />
-
-   | Item                             | Dados                 |
-   | -------------------------------- | --------------------- |
-   | **Organization account name**    | Nome do seu projeto   |
-   | **Contact e-mail**               | E-mail do seu projeto |
-   | **This organization belongs to** | My personal account   |
+| Item                             | Dados                 |
+| -------------------------------- | --------------------- |
+| **Organization account name**    | Nome do seu projeto   |
+| **Contact e-mail**               | E-mail do seu projeto |
+| **This organization belongs to** | My personal account   |
 
 4. Ao final, faça a verificação de segurança da sua conta clicando no botão **Verificar** e ao finalizar clique no botão **Next**.
 
@@ -86,8 +72,6 @@ Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo
 <div align="center"><img src="https://i.imgur.com/IVEECtm.png?1" title="source: imgur.com"  width="80%"/></div>
 <div align="center"><img src="https://i.imgur.com/rrCNzt4.png" title="source: imgur.com"  width="80%"/></div>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
 7. Os integrantes do grupo irão receber um **e-mail com o convite** para fazer parte da Organização, semelhante a figura abaixo:
 
 <div align="center"><img src="https://i.imgur.com/qODk771.png" title="source: imgur.com" /></div>
@@ -95,8 +79,6 @@ Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo
 8. Clique no botão **Join** para aceitar o convite. 
 
 9. Após clicar no botão **Join**, o Github solicitará a senha do Github pessoal para confirmar a aceitação do convite.
-
-   <br /><br /><br />
 
 <h2>Passo 03 - Criando Repositórios na Organização</h2>
 
@@ -117,11 +99,7 @@ Neste passo vamos criar os nossos Repositórios Remotos.
 
 <div align="center"><img src="https://i.imgur.com/FB2N0kL.png" title="source: imgur.com" /></div>
 
-
-
 <h2>Passo 04 - Criando um Time de Desenvolvimento</h2>
-
-
 
 Time de Desenvolvimento ou Teams,  são grupos de membros da organização que refletem a estrutura de sua empresa ou grupo de um Projeto, com permissões e menções de acesso em cascata aos repositórios da Organização.
 
@@ -151,16 +129,9 @@ Neste passo vamos criar um time de desenvolvimento.
 
 6. Como os integrantes do grupo já fazem parte da Organização, todos receberão uma mensagem via e-mail informando que foram adicionados no time.
 
-
-
-
 <h2>Passo 05 - Adicionando o Time no Repositório</h2>
 
-
-
 Neste passo, vamos adicionar o time nos Repositórios do Projeto.
-
-
 
 1. Na tela inicial do Repositório (no exemplo abaixo, backend), clique no link **Settings**.
 
@@ -169,8 +140,6 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 2. Na próxima tela, no menu lateral do lado esquerdo da tela, clique na opção **Collaborators & teams**.
 
 <div align="center"><img src="https://i.imgur.com/ovPFtJI.png" title="source: imgur.com" /></div>
-
-<br /><br /><br />
 
 3. Ainda nesta tela, clique no botão **Add teams**.
 
@@ -183,12 +152,10 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 5. Clique no botão **Add** (botão verde), para concluir.
 6. Repita estes passos nos demais repositórios do projeto.
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="230px"/> | <div align="left"> **ATENÇÃO:** Como todos os Integrantes do Grupo terão acesso de Administrador do Repositório, tenham cuidado para manter o repositório organizado e sem erros.</div> |
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="150px"/> | <div align="left"> **ATENÇÃO:** Como todos os Integrantes do Grupo terão acesso de Administrador do Repositório, tenham cuidado para manter o repositório organizado e sem erros.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <h2>Passo 06 - Personalizando a Organização</h2>
-
-
 
 1. Clique sobre logo da Organização
 
@@ -198,13 +165,9 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 
 <div align="center"><img src="https://i.imgur.com/kHLvs9U.png" title="source: imgur.com" /></div>
 
-<br /><br /><br />
-
 3. Ainda nesta janela, personalize as informações da Organização como mostra a figura abaixo, ajustando os dados para o seu projeto.
 
 <div align="center"><img src="https://i.imgur.com/9Zq1yHc.png" title="source: imgur.com" width="75%"/></div>
-
-
 
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** O item **URL**, **deverá ser preenchido apenas no final do Bloco 03**, quando o Frontend estiver concluído e na nuvem.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
