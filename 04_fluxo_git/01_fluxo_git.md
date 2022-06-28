@@ -12,10 +12,9 @@ Algumas coisas importantes devem ser questionadas ao avaliar a eficiência de um
 
 - O fluxo de trabalho simplifica o processo de desfazer erros?
 
--   O fluxo de trabalho impõe alguma nova sobrecarga cognitiva desnecessária à equipe?
+- O fluxo de trabalho impõe alguma nova sobrecarga cognitiva desnecessária à equipe?
     
-    
-<h3>1.1) Tipos de Fluxo
+<h3>1.1) Tipos de Fluxo </h3>
 
 -   **Fluxo de trabalho centralizado:** A ideia central por trás do Fluxo de trabalho centralizado é que todo o desenvolvimento de recursos deve ocorrer na branch main.
 
@@ -29,7 +28,11 @@ Algumas coisas importantes devem ser questionadas ao avaliar a eficiência de um
 
 <div align="center"><img src="https://i.imgur.com/ZDofWfw.png" title="source: imgur.com" /></div>
 
+<br />
+
 <img width="30px" src="https://i.imgur.com/4gupQvJ.png" title="source: imgur.com" />  Para saber mais sobre o GitFlow, assista ao vídeo *Trabalhando em equipe com Git Flow* no link: <a href="https://www.youtube.com/watch?v=394mc6PV8t8" target="_blank">https://www.youtube.com/watch?v=394mc6PV8t8</a>
+
+<br />
 
 | <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="80px"/> | <div align="left"> **DICA:** *Existem outros Modelos de Fluxo Git. Os 3 citados acima são os mais populares.* </div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -101,7 +104,6 @@ Caso Você tenha alguma dúvida, utilize o **Guia de Instalação do VSCode** e 
 	```bash
 	git config --global core.editor 'code --wait'
 	```
-<br /><br /><br />
 
 <h2>4) Iniciando um Fluxo de Trabalho Git</h2>
 
@@ -191,8 +193,6 @@ git pull origin main
 git remote -v
 ```
 
-<br /><br /><br />
-
 <table width=100%>
 	<tr>
         <td width=30%><b>Comando</b></td>
@@ -233,8 +233,6 @@ git remote -v
 7. Verifique se o Repositório Remoto no Github foi atualizado. O Repositório estará semelhante a imagem abaixo: 
 
 <div align="center"><img src="https://i.imgur.com/fYeKho4.png" title="source: imgur.com" /></div>
-
-<br /><br />
 
 <h3>4.4) Criar a Branch Task 03 (Product Owner)</h3>
 
@@ -395,12 +393,9 @@ git pull origin main
 | <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="200px"/> | <div align="left"> **DICA:** *Nos próximos capítulos veremos algumas situações corriqueiras, que podem acontecer no Git. Caso você queira praticar, recomendamos que o grupo  crie um repositório novo para efetuar os testes* </div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
 <h2>5) Desfazendo mudanças no repositório local</h2>
 
 A partir deste Capítulo nós veremos algumas simulações com situações corriqueiras, entre elas como desfazer alterações no repositório local.
-
 
 1.  Crie uma nova Branch com o nome **teste**
 	
@@ -472,13 +467,11 @@ git push origin main
 
 17. Observe que a **Branch Teste** não foi enviada para o Github, porque ela não recebeu o comando:  **git push -u origin teste** que envia uma branch específica para o repositório remoto no Github.
 
-<br /><br /><br />
-
 <h2>6) Resolução de Conflitos
 
-<h3>6.1) Criando o conflito no Github
+<h3>6.1) Criando o conflito no Github </h3>
 
-  1. No Github, substitua o conteúdo do arquivo **projeto.sql**, na branch main, pelas linhas abaixo:
+1. No Github, substitua o conteúdo do arquivo **projeto.sql**, na branch main, pelas linhas abaixo:
 
 ```sql
 SELECT * FROM tb_alunos;
@@ -488,9 +481,9 @@ SELECT * FROM tb_alunos WHERE id = 1;
 
 2. Faça o commit das alterações clicando no botão <img width="100px" src="https://i.imgur.com/MlcaB6V.png" title="source: imgur.com" />
 
-   <div align="center"><img src="https://i.imgur.com/oszVDu0.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/oszVDu0.png" title="source: imgur.com" /></div>
 
-<h3>6.2) Criando o Conflito no Git Local
+<h3>6.2) Criando o Conflito no Git Local </h3>
 
 1. No seu Repositório Local, substitua o conteúdo do arquivo **projeto.sql**, na branch main, pelas linhas abaixo:
 
@@ -499,6 +492,7 @@ SELECT * FROM tb_alunos ORDER BY id;
 ```
 
 2. Adicione as alterações na Branch Main
+
 ```bash
 git add .
 
@@ -506,18 +500,22 @@ git commit -m “Update projeto.sql”
 ```
 
 3.  Confirme se os arquivos foram “Commitados”
+	
 ```bash
 git status
 ```
+
 4. Execute o comando **git pull** para atualizar o repositório local com as atualizações do repositório remoto
+
 ```bash
 git pull origin main
 ```
+
 5. Observe que no final da Mensagem aparece a palavra **CONFLICT**
 
 <div align="center"><img width="900px" src="https://i.imgur.com/aTy4fnG.png" title="source: imgur.com" /></div>
 
- 6. Vamos abrir o arquivo no **VSCode** e verificar os conflitos
+6. Vamos abrir o arquivo no **VSCode** e verificar os conflitos
 
 ```bash
 code .
@@ -527,14 +525,16 @@ code .
 
 <div align="center"><img width="900px" src="https://i.imgur.com/ljBXL2t.png" title="source: imgur.com" /></div>
 
- 8. O **VSCode** oferece **3 opções** para resolver o conflito e mais uma para ajudar na decisão:
+8. O **VSCode** oferece **3 opções** para resolver o conflito e mais uma para ajudar na decisão:
 
 	 - <b>Accept Current Change:</b> Mantém a mudança local 
 	 - <b>Accept Incoming Change:</b> Mantém a mudança remota 
 	 - <b>Accept Both Changes:</b> Mantém as 2 mudanças 
 	 - <b>Compare Changes:</b>  Exibe os 2 arquivos lado a lado, para  que você possa comparar
-  9. Clique em uma das opções e salve o arquivo para concluir
- 10. Adicione as alterações na Branch Main Local e cheque o Status
+  
+9. Clique em uma das opções e salve o arquivo para concluir
+
+10. Adicione as alterações na Branch Main Local e cheque o Status
 
 ```bash
 git add .
@@ -560,11 +560,8 @@ git push origin main
 
 14. Conflito resolvido e ambos os repositórios estão atualizados.
 
-<div align="center"><h3>*** DICA IMPORTANTE ***</h3></div>
-
-Para evitar conflitos, crie o hábito de sempre atualizar o repositório local, com o conteúdo do repositório remoto, através da execução do comando <code><b>git pull</b></code> antes de começar a trabalhar no projeto.
-
-<br /><br /><br /><br /><br /><br /><br /><br />
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *Para evitar conflitos, crie o hábito de sempre atualizar o repositório local, com o conteúdo do repositório remoto, através da execução do comando <code><b>git pull</b></code> antes de começar a trabalhar no projeto.* </div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <h2>7) Trabalhando com o Fork</h2>
 
@@ -632,8 +629,6 @@ Agora vamos atualizar o repositório Fork com todos os commits recentes do repos
 
 <div align="center"><img src="https://i.imgur.com/TA4wgjZ.png" title="source: imgur.com" /></div> 
 
-
-
 <h2>8) Comandos úteis</h2>
 
   1. Criar uma Branch no Github
@@ -662,7 +657,6 @@ git branch -d nome_da_branch
 git clone https://github.com/rafaelproinfo/projeto_integrador.git
 ```
 
-
 6. Forçar uma atualização no Repositório Remoto
 
 ```bash
@@ -675,6 +669,6 @@ git push -f origin main
 git pull -f origin main
 ```
 
-
-
-
+<br /><br />
+	
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
