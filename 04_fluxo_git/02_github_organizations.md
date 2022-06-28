@@ -212,3 +212,7 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 4. Clique no botão **Update Profile** para concluir. O resultado você confere na imagem abaixo:
 
 <div align="center"><img src="https://i.imgur.com/AvUlZ51.png" title="source: imgur.com" /></div>
+
+<br /><br />
+	
+<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
