@@ -3,7 +3,7 @@
 </div>
 <h1><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com" width="40px"/>Bootcamp - Java Full Stack </h1>
 	
-<h2>Preparação do Ambiente</h2>
+<h2><img src="https://i.imgur.com/PHgmbCh.png" title="source: imgur.com" width="40px"/>Preparação do Ambiente</h2>
 
 1. <a href="01_install_java_17.md" >Guia de Instalação - Java 17</a>
 2. <a href="02_install_sts.md" >Guia de Instalação - STS</a>
