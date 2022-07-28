@@ -60,7 +60,7 @@ O Fluxo do Backend acontecerá no repositório do Backend, enquanto o fluxo do F
 		<td><b>Documentação</b></td>
 		<td>Arquivos contendo a documentação da API: <br />
 		- Documentação  do Banco de Dados (DER, SQL e Dicionário de dados)<br />
-		- Documentação do Backend (Abertura de projeto, Dicionário de atributos e PDF do Swagger)<br />
+		- Documentação do Backend (Abertura de projeto, Dicionário de Atributos e PDF do Swagger)<br />
 		- Documentação do Frontend
 		</td>
 	</tr>

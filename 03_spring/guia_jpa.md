@@ -9,35 +9,35 @@
 	</tr>
 	<tr>
 		<td><code>@NotNull
-		<td>Valida se o valor do atributo não é nulo.
+		<td>Valida se o valor do Atributo não é nulo.
 	</tr>
 	<tr>
 		<td><code>@AssertTrue
-		<td>Valida se o valor do atributo é verdadeiro.
+		<td>Valida se o valor do Atributo é verdadeiro.
 	</tr>
 	<tr>
 		<td><code>@Size
-		<td>Valida se o valor do atributo possui um tamanho entre os parâmetros min e max. utilize com Strings e  Collections.
+		<td>Valida se o valor do Atributo possui um tamanho entre os parâmetros min e max. utilize com Strings e  Collections.
 	</tr>
 	<tr>
 		<td><code>@Min
-		<td>Valida se o valor do atributo tem um valor maior ou igual ao valor mínimo atribuído ao atributo.
+		<td>Valida se o valor do Atributo tem um valor maior ou igual ao valor mínimo atribuído ao Atributo.
 	</tr>
 	<tr>
 		<td><code>@Max 
-		<td>Valida se o valor do atributo tem um valor menor ou igual ao valor máximo atribuído ao atributo.
+		<td>Valida se o valor do Atributo tem um valor menor ou igual ao valor máximo atribuído ao Atributo.
 	</tr>
 	<tr>
 		<td><code>@Email
-		<td> Valida se o valor do atributo é um email.
+		<td> Valida se o valor do Atributo é um email.
 	</tr>
 	<tr>
 		<td><code>@NotEmpty 
-		<td>Valida se o valor do atributo não é nulo ou vazio; pode ser aplicado a valores de String e  Collections.
+		<td>Valida se o valor do Atributo não é nulo ou vazio; pode ser aplicado a valores de String e  Collections.
 	</tr>
 	<tr>
 		<td><code>@NotBlank
-		<td>Pode ser aplicado apenas a valores de texto e valida se o valor do atributo não é nulo ou possui espaços em branco.
+		<td>Pode ser aplicado apenas a valores de texto e valida se o valor do Atributo não é nulo ou possui espaços em branco.
 	</tr>
 	<tr>
 		<td><code>@Positive <br /> @PositiveOrZero
@@ -107,13 +107,13 @@
 
 <h2>3. Query Methods</h2>
 
-**Query Method** são Métodos de Consulta personalizados, que permitem criar consultas específicas com qualquer atributo da Classe associada a Interface Repositório (Postagem). 
+**Query Method** são Métodos de Consulta personalizados, que permitem criar consultas específicas com qualquer Atributo da Classe associada a Interface Repositório (Postagem). 
 
-Como a Interface JpaRepository possui apenas um método de consulta específico pelo id (**findById( Long id)**), que é um atributo comum em todas as Classes Model de um Projeto Spring, através das Query Methods podemos ampliar as nossas opções de consulta. 
+Como a Interface JpaRepository possui apenas um Método de consulta específico pelo id (**findById( Long id)**), que é um Atributo comum em todas as Classes Model de um Projeto Spring, através das Query Methods podemos ampliar as nossas opções de consulta. 
 
 As Query Methods são declaradas dentro da **Interface Repositório** e implementadas nas **Classes Controladoras e de Serviços** (Service, que veremos mais a frente).
 
-Na prática, o que as Query Methods fazem são criar instruções SQL através de Palavras Chave, que combinadas com os atributos da Classe Model, geram consultas personalizadas.
+Na prática, o que as Query Methods fazem são criar instruções SQL através de Palavras Chave, que combinadas com os Atributos da Classe Model, geram consultas personalizadas.
 
 **Exemplo 01 - Blog Pessoal (CRUD):**
 
@@ -217,10 +217,10 @@ Nas consultas do tipo textual, utilizaremos a anotação **@Param**. Os parâmet
 
 | Palavra-chave    | Descrição                                                    | Exemplo                                                      |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Like**         | Busca todos os Objetos, onde um atributo específico (String), possua exatamente o mesmo texto do critério de busca. | **findAllByNomeLike(@Param("nome") String nome)** <br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome";* |
-| **Containing**   | Busca todos os Objetos, onde um atributo específico (String), contenha o texto do critério de busca, independente da posição (inicio, meio ou fim) | **findAllByNomeContaining(String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome%";* |
-| **StartingWith** | Busca todos os Objetos, onde um atributo específico (String), inicie com o texto do critério de busca | **findAllByNomeStartingWith(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome%";* |
-| **EndingWith**   | Busca todos os Objetos, onde um atributo específico (String), termine com o texto do critério de busca | **findAllByNomeEndingWith(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome";* |
+| **Like**         | Busca todos os Objetos, onde um Atributo específico (String), possua exatamente o mesmo texto do critério de busca. | **findAllByNomeLike(@Param("nome") String nome)** <br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome";* |
+| **Containing**   | Busca todos os Objetos, onde um Atributo específico (String), contenha o texto do critério de busca, independente da posição (inicio, meio ou fim) | **findAllByNomeContaining(String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome%";* |
+| **StartingWith** | Busca todos os Objetos, onde um Atributo específico (String), inicie com o texto do critério de busca | **findAllByNomeStartingWith(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome%";* |
+| **EndingWith**   | Busca todos os Objetos, onde um Atributo específico (String), termine com o texto do critério de busca | **findAllByNomeEndingWith(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome";* |
 | **IgnoreCase**   | Ignora se as letras são Maiúsculas ou Minúsculas. O MySQL, por padrão, já é Case Sensitive. Esta palavra chave pode ser usada em qualquer busca textual. | **findAllByNomeContainingIgnoreCase(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE UPPER(nome) LIKE UPPER("nome");* |
 
 <h3>Busca por Data</h3>
@@ -236,8 +236,8 @@ Ao implementar os Métodos de Consulta por Data na Classe Controladora, será ne
 
 | Palavra | Descrição                                   | Exemplo                    |
 | ------------- | ------------------------------------------- | -------------------------- |
-| **True**      | Verifica se um atributo Boolean é verdadeiro. | **findByDisponivelTrue()**<br />*SELECT * FROM tb_produtos WHERE disponivel = true;*  |
-| **False**     | Verifica se um atributo Boolean é falso.      | **findByDisponivelFalse()**<br />*SELECT * FROM tb_produtos WHERE disponivel = false;* |
+| **True**      | Verifica se um Atributo Boolean é verdadeiro. | **findByDisponivelTrue()**<br />*SELECT * FROM tb_produtos WHERE disponivel = true;*  |
+| **False**     | Verifica se um Atributo Boolean é falso.      | **findByDisponivelFalse()**<br />*SELECT * FROM tb_produtos WHERE disponivel = false;* |
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/jpa_query_methods" target="_blank"><b>Código fonte do projeto exemplo</b></a>
 

@@ -1,6 +1,6 @@
 <h1>Diagrama de Classes</h1>
 
-A **Programação Orienteda à Objetos (POO)** é um paradigma baseado no conceito de envolver dados (**Atributos**), e comportamentos (**Métodos**), relacionados aqueles dados, em uma coleção chamada Objetos, que são construídos de um conjunto de “planos de construção” (**Métodos Construtores**), definidos por uma pessoa Desenvolvedora ou por um Analista de Sistemas, chamados de **Classes**. Uma classe é como uma planta de construção que define a estrutura para objetos, que são instâncias concretas daquela classe.
+A **Programação Orienteda à Objetos (POO)** é um paradigma baseado no conceito de envolver dados (**Atributos**), e comportamentos (**Métodos**), relacionados aqueles dados, em uma coleção chamada Objetos, que são construídos de um conjunto de “planos de construção” (**Métodos Construtores**), definidos por uma pessoa Desenvolvedora ou por um Analista de Sistemas, chamados de **Classes**. Uma Classe é como uma planta de construção que define a estrutura para objetos, que são instâncias concretas daquela Classe.
 
 Da mesma forma que o **DER**, Diagrama de Entidades e Relacionamentos apresentam o nosso Modelo de dados Relacional de forma gráfica, o **Diagrama de Classes** representam de forma gráfica as nossas Classes e as suas relações. A **UML** (Unified Modeling Language), que **significa** Linguagem Unificada de Modelagem, é a linguagem padrão para modelagem de sistemas que seguem o paradigma da Orientação a Objetos. A UML é utilizada na construção dos Diagramas de Classes e outros tipos de Diagramas como o Diagrama de Casos de Uso, Diagrama de Sequência e etc. Neste material vamos focar no Diagrama de Classes.
 
@@ -14,7 +14,7 @@ Quando falamos de uma única Classe, tudo fica muito simples, entretanto, nenhum
 
 <h3>Herança</h3>
 
-A Herança é a habilidade de construir novas classes em cima de classes já existentes. O maior benefício da herança é a reutilização de código. Se você quer criar uma classe que é apenas um pouco diferente de uma já existente, não há necessidade de duplicar o código. Ao invés disso, você estende a classe existente e coloca a funcionalidade adicional dentro de uma subclasse resultante, que herdará todos os campos de métodos da superclasse.
+A Herança é a habilidade de construir novas Classes em cima de Classes já existentes. O maior benefício da herança é a reutilização de código. Se você quer criar uma Classe que é apenas um pouco diferente de uma já existente, não há necessidade de duplicar o código. Ao invés disso, você estende a Classe existente e coloca a funcionalidade adicional dentro de uma subClasse resultante, que herdará todos os campos de Métodos da superClasse.
 
 <div align="center"><img src="https://i.imgur.com/J263Uf4.png" title="source: imgur.com" /></div>
 
@@ -22,9 +22,9 @@ No exemplo acima, Gato é um animal, logo ele herda todas características da Cl
 
 <h3>Implementação</h3>
 
-Interfaces são um conceito  da programação orientada a objetos que tem a ver com o comportamento esperado para uma ou um conjunto de classes. Interfaces definem o que uma classe deve fazer e não como. Assim, interfaces não  possuem a implementação de métodos pois apenas declaram o conjunto de  métodos. 
+Interfaces são um conceito  da programação orientada a objetos que tem a ver com o comportamento esperado para uma ou um conjunto de Classes. Interfaces definem o que uma Classe deve fazer e não como. Assim, interfaces não  possuem a implementação de Métodos pois apenas declaram o conjunto de  Métodos. 
 
-Na interface, todos os métodos são portanto abstratos e públicos, já que são apenas declarados na interface sendo  obrigatoriamente implementados pelas classes que implementam a  interface. Uma vez definida uma interface é implementada pelas classes de devem ter o  comportamento descrito na interface, ou seja, devem ter os mesmos  métodos definidos na interface. Dizemos que as classes implementam a  interface pois de fato uma classe ao implementar uma interface deve  prover a implementação de todos os métodos definidos na interface.
+Na interface, todos os Métodos são portanto abstratos e públicos, já que são apenas declarados na interface sendo  obrigatoriamente implementados pelas Classes que implementam a  interface. Uma vez definida uma interface é implementada pelas Classes de devem ter o  comportamento descrito na interface, ou seja, devem ter os mesmos  Métodos definidos na interface. Dizemos que as Classes implementam a  interface pois de fato uma Classe ao implementar uma interface deve  prover a implementação de todos os Métodos definidos na interface.
 
 Em diagramas UML, o relacionamento de Implementação é mostrado por uma seta igual a da Herança, com a linha tracejada, desenhada de um objeto e apontada para outro que ele implementa.
 
