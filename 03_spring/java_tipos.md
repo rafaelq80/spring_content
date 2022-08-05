@@ -4,7 +4,7 @@
 
 | Tipo        | Descrição                                                    |
 | ----------- | ------------------------------------------------------------ |
-| **byte**    | Tipo de dado inteiro composto por 8 bits. O valor minimo é -127 e o máximo é 128. |
+| **byte**    | Tipo de dado inteiro composto por 8 bits. O valor minimo é -128 e o máximo é 127. |
 | **short**   | Tipo de dado inteiro composto por 16 bits. O valor minimo é -32.768 e o máximo é 32.767. |
 | **int**     | Tipo de dado inteiro composto por 32 bits. O valor minimo é <img src="https://latex.codecogs.com/svg.image?-2^{31}" title="https://latex.codecogs.com/svg.image?-2^{31}" /> ( -2.147.483.648) e o máximo é <img src="https://latex.codecogs.com/svg.image?2^{31}" title="https://latex.codecogs.com/svg.image?2^{31}" /> (2.147.483.648). O tipo int geralmente é utilizado em operações aritméticas para inteiros sem sinal. |
 | **long**    | Tipo de dado inteiro composto por 64 bits. O valor minimo é <img src="https://latex.codecogs.com/svg.image?-2^{63}" title="https://latex.codecogs.com/svg.image?-2^{63}" /> (-9.223.372.036.854.775.808) e o máximo é <img src="https://latex.codecogs.com/svg.image?2^{63}" title="https://latex.codecogs.com/svg.image?2^{63}" /> (9.223.372.036.854.775.808). O tipo int geralmente é utilizado em operações aritméticas para inteiros sem sinal. |
