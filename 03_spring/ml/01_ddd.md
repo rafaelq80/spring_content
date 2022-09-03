@@ -28,7 +28,14 @@ Quando falamos em DDD (Domain Driven Design), não falamos apenas em desenvolver
 
 O DDD preza que as pessoas desenvolvedoras façam parte do processo, entendendo o negócio e todos os seus modelos nos diferentes ângulos e não apenas participando de reuniões com o Tech Lead ou com o seu Time de pessoas Desenvolvedoras.
 
-Antigamente, a pessoa desenvolvedora se preocupava apenas com a codificação do software. O novo perfil das pessoas desenvolvedoras exige que todo o Time participe de todo o processo, desde o levantamento de requisitos até o contato com o Especialista no Domínio. Observe que a base de conhecimento dos integrantes do Time de pessoas Desenvolvedoras não pode se limitar apenas ao conhecimento técnico. 
+Antigamente, a pessoa desenvolvedora se preocupava apenas com a codificação do software. O novo perfil das pessoas desenvolvedoras exige que todo o Time participe de todo o processo, desde o levantamento de requisitos até o contato com o Especialista no Domínio. Observe que a base de conhecimento dos integrantes do Time de pessoas Desenvolvedoras não pode se limitar apenas ao conhecimento técnico. Entre as habilidades recomendadas, as chamadas Soft Skills, podemos destacar:
+
+- Comunicação
+
+- Criatividade
+- Senso Crítico
+- Proatividade
+- Resiliência
 
 <h2>3. A História do DDD</h2>
 
@@ -239,7 +246,7 @@ Em relação a autenticação temos um núcleo compartilhado onde todos poderão
 
 <br />
 
-<h3>👣 Passo 06 - Definir a Arquitetura</h3>
+<h3>👣 Passo 06 - Definir a Arquitetura Contextual</h3>
 
 Após a conclusão do Mapa de contexto é necessário definir qual a Arquitetura de Software será utilizada. Cada contexto terá a sua arquitetura, independente dos demais ou a combinação de duas ou mais arquiteturas. O DDD não impõe o mesmo estilo arquitetural para todos os contextos, é a análise do contexto que indica qual a melhor opção.
 
@@ -273,7 +280,11 @@ Existem outras Arquiteturas que podem ser utilizadas. Aqui estamos dando destaqu
 
 A **Modelagem Tática** está relacionada com os blocos de construção da DDD, ou seja, um conjunto de recursos técnicos usados na construção do *Modelo de domínio* do negócio.
 
-Se tratando de DDD, geralmente se utiliza o padrão **Domain Model Pattern**, que é uma abordagem de como escrever as classes que vão mapear os modelos do mundo real e implementar os comportamentos do negócio. O **Domain Model Pattern deve ser isolado dos detalhes da sua arquitetura como persistência (Banco de dados), Linguagem, Framework, entre outros**. 
+Se tratando de DDD, geralmente se utiliza o padrão **Domain Model Pattern**, que é uma abordagem de como escrever as classes que vão mapear os modelos do mundo real e implementar os comportamentos do negócio. 
+
+O Domain Model Patterns são padrões de desenvolvimento e estruturação de aplicações cujo domínio é o principal foco, sendo que eles estão focados em entidades de agregadores, objetos de valor, repositórios e serviços.
+
+O **Domain Model Pattern deve ser isolado dos detalhes da sua arquitetura como persistência (Banco de dados), Linguagem, Framework, entre outros**. 
 
 O Domain Model Pattern atende diversas convenções do DDD como:
 
@@ -295,7 +306,7 @@ Na imagem abaixo temos uma representação Gráfica destes conceitos:
 
 <br />
 
-## Como montar um modelo efetivo?
+## Como criar um modelo efetivo?
 
 Para construir um modelo efetivo, é importante combinar os seguintes fatores: 
 
