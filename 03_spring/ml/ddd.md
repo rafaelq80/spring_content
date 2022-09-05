@@ -1,8 +1,12 @@
 <h1>Introdução ao Domain Driven Design</h1>
 
-**Domain Driven Design (DDD)** ou **Design Orientado ao Domínio**, é uma abordagem de Desenvolvimento de Software, que visa corresponder ao modelo mental do Domínio do problema, que estamos trabalhando, com o bjetivo de criar uma solução computacional. O conceito de DDD é uma abordagem de modelagem de software que segue um conjunto de boas práticas com o objetivo de facilitar a implementação de regras complexas e processos de negócios que tratamos como o Domínio da aplicação.
+**Domain Driven Design (DDD)** ou **Design Orientado ao Domínio**, é uma abordagem de Desenvolvimento de Software, que visa corresponder ao modelo mental do Domínio do problema, que estamos trabalhando, com o objetivo de criar uma solução computacional. O conceito de DDD é uma abordagem de modelagem de software que segue um conjunto de boas práticas com o objetivo de facilitar a implementação de regras complexas e processos de negócios que tratamos como o Domínio da aplicação.
 
 O conceito de ***Domain Driven Design*** como o próprio nome já diz é um assunto que se refere ao ***Design do software* e não do Código propriamente dito**. Esse design é guiado pelo ***Domínio*** de sua aplicação, ou seja uma ***modelagem de software*** focada em resolver os problemas de complexidade das ***Regras de Negócio***.
+
+<div align="center"><img src="https://i.imgur.com/YSggH3D.png" title="source: imgur.com" width="80%"/></div>
+
+Na Imagem acima vemos que o DDD parte do Domínio Real para uma Modelo, que representa uma abstração do Mundo Real.
 
 > **Regras de negócio:** O termo regras de negócio refere-se às **diretrizes que definem ou restringem as ações, mostrando como os Métodos devem funcionar, o que deve ser checado em cada Método e quais são os limites da aplicação**. Essas regras são importantes para que a pessoa desenvolvedora tenha uma visão clara do que deve ser feito, como e por qual razão.
 
@@ -21,6 +25,10 @@ Os princípios defendidos por DDD têm, no seu conjunto, um objetivo central: pe
 <h2>1. Domínio</h2>
 
 O Domínio é o coração do negócio em que você está trabalhando. O Domínio é baseado em um conjunto de ideias, regras, conhecimentos e processos do negócio. Sem um domínio o sistema e todos os seus processos, não servirão para nada. Sempre que falamos em domínio, estaremos falando da razão, do objetivo, da justificativa daquele software existir. 
+
+O **Domínio** no contexto de Engenharia de Software é o “conhecimento” utilizado em  uma determinada área de aplicação, um campo específico para qual o  sistema foi desenvolvido. É definido por um conjunto de características  que descrevem uma família de problemas para os quais uma determinada  aplicação pretende dar solução. 
+
+Alguns exemplos que podemos citar, incluem sistema de e-commerce, sistemas para reservas de passagens aéreas, sistema de pagamentos, entre outros.
 
 Quando falamos em DDD (Domain Driven Design), não falamos apenas em desenvolver um software, mas sim em entender a modelagem do projeto como um todo. Se você não souber modelar o software, não conseguirá fazê-lo crescer e ser mantido a médio e longo prazo.
 
@@ -74,9 +82,11 @@ DDD defende que as **pessoas desenvolvedoras** devem ter um profundo conheciment
 
 <h3>👣 Passo 02 – Definir a Linguagem Ubíqua</h3>
 
-Um dos pontos mais importantes do DDD, onde 99% das pessoas desenvolvedoras acabam ignorando, é falar e extrair a **Linguagem Ubíqua**.
+Um dos pontos mais importantes do DDD, onde 99% das pessoas desenvolvedoras acabam ignorando, é falar e extrair a **Linguagem Ubíqua**. 
 
-**Linguagem Ubíqua é a linguagem criada a partir da união dos termos falados no dia a dia, no contexto da empresa e os termos falados no dia a dia , no contexto do time de pessoas desenvolvedoras, que são relevantes para que todos compreendam o projeto.**
+**Linguagem Ubíqua é a linguagem falada no dia a dia por todos os envolvidos no projeto.**
+
+É a linguagem criada a partir da união dos termos falados no dia a dia, no contexto da empresa e os termos falados no dia a dia , no contexto do time de pessoas desenvolvedoras, que são relevantes para que todos compreendam o projeto.
 
 Como citado anteriormente, é preciso conhecer a linguagem utilizada pelas pessoas envolvidas no projeto. Ignorar esta etapa é o primeiro grande passo para o fracasso do software, por este motivo é importante familiarizar-se com a linguagem do negócio. 
 
@@ -89,7 +99,7 @@ A imagem acima, ilustra que existem termos que **somente os Especialistas no Dom
 Os termos da Linguagem Ubíqua são usados com dois propósitos:
 
 - Para **possibilitar uma comunicação fluida entre as pessoas desenvolvedoras e os especialistas no domínio**.
-- Para **nomear entidades do código do sistema**, como classes, métodos, atributos, pacotes, módulos, tabelas de bancos de dados, rotas de APIs, entre outros.
+- Para **nomear entidades do código do sistema**, como classes, métodos, atributos, pacotes, módulos, tabelas de bancos de dados, rotas de API's, entre outros.
 
 Um processo importante na definição da Linguagem Ubíqua do negócio é definir o **Glossário das palavras**. Observe a lista de palavras abaixo:
 
@@ -150,7 +160,7 @@ Com os itens acima, é possível começar a delimitar os contextos da aplicaçã
 
 Para a aplicação ter um bom design, uma fácil manutenção / extensibilidade e o domínio ser bem modelado é necessário focar em **Modelagem Estratégica**, que é a definição formal dos contextos que utilizaremos no sistema. Neste momento é importante preocupar-se com a integridade do modelo conforme o Diagrama do Mapa de Contextos abaixo:
 
-<div align="center"><img src="https://i.imgur.com/GFnuIWL.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/HUXKy7e.png" title="source: imgur.com" /></div>
 
 Todos os conceitos do Mapa de Contextos acima são importantes e é necessário compreender muito bem cada um deles para termos condição de realizar uma boa modelagem.
 
@@ -236,7 +246,7 @@ Existem diversos patterns (padrões) que descrevem o tipo de relacionamento entr
 
 Na imagem abaixo, temos o Mapa de Contexto simplificado, da nossa aplicação de aluguel de carregadores de celular, com os respectivos relacionamentos:
 
-<div align="center"><img src="https://i.imgur.com/9jt3sXw.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/9jt3sXw.png" title="source: imgur.com" width="80%"/></div>
 
 Observe no Mapa de Contexto existe a relação entre domínios principais e domínios genéricos. Os domínios principais são **upstream**, ou seja, **têm prioridade em relação aos genéricos**, que são **downstream**. Isso significa que na ordem de prioridade, quando alguma coisa mudar, será prioritariamente do lado dos domínios genéricos. Nestes casos, temos uma **Relação Cliente Fornecedor**. 
 
@@ -248,23 +258,17 @@ Em relação a autenticação temos um núcleo compartilhado onde todos poderão
 
 <h3>👣 Passo 06 - Definir a Arquitetura Contextual</h3>
 
-Após a conclusão do Mapa de contexto é necessário definir qual a Arquitetura de Software será utilizada. Cada contexto terá a sua arquitetura, independente dos demais ou a combinação de duas ou mais arquiteturas. O DDD não impõe o mesmo estilo arquitetural para todos os contextos, é a análise do contexto que indica qual a melhor opção.
+Após a conclusão do Mapa de contexto é necessário definir qual a Arquitetura de Software será utilizada em cada contexto delimitado. Cada contexto terá a sua arquitetura, independente dos demais ou a combinação de duas ou mais arquiteturas. O DDD não impõe o mesmo estilo arquitetural para todos os contextos, é a análise do contexto que indica qual a melhor opção.
 
 Existem diversos Modelos de Arquitetura de Software, entre os quais podemos citar:
 
-- MVC (Model - View - Controller)
-
-- Arquitetura REST
 - Arquitetura Onion
+
 - Arquitetura Hexagonal
 - Microsserviços
 - Arquitetura em Camadas (Layer)
 
 Existem outras Arquiteturas que podem ser utilizadas. Aqui estamos dando destaque as mais utilizadas no Mercado atualmente. Uma pessoa arquiteta de software deve conhecer as diversas Arquiteturas e principalmente saber reconhecer onde e quando devem ser utilizadas.
-
-<div align="left"><img src="https://i.imgur.com/XtXfL8a.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/cookbook_spring/blob/main/03_spring/01.md#4-arquitetura-mvc-" target="_blank"><b>Modelo MVC (Model - View - Controller)</b></a></div>
-
-<div align="left"><img src="https://i.imgur.com/XtXfL8a.png" title="source: imgur.com" width="25px"/><a href="https://github.com/rafaelq80/cookbook_spring/blob/main/03_spring/01.md#3-api-rest" target="_blank"><b>Arquitetura REST</b></a></div>
 
 <div align="left"><img src="https://i.imgur.com/XtXfL8a.png" title="source: imgur.com" width="25px"/><a href="https://medium.com/p/551f460c3b2c" target="_blank"><b>Artigo: Arquitetura Onion: Definição, Camadas e Benefícios.</b></a></div>
 
@@ -278,27 +282,29 @@ Existem outras Arquiteturas que podem ser utilizadas. Aqui estamos dando destaqu
 
 <h3>👣 Passo 07 - Modelagem Tática</h3>
 
-A **Modelagem Tática** está relacionada com os blocos de construção da DDD, ou seja, um conjunto de recursos técnicos usados na construção do *Modelo de domínio* do negócio.
+A **Modelagem Tática** está relacionada com os blocos de construção da DDD, ou seja, um conjunto de recursos técnicos usados na construção do *Modelo de domínio* do negócio. Neste momento é importante preocupar-se com a integridade do modelo conforme o Diagrama de Design do Modelo do Domínio abaixo:
 
-Se tratando de DDD, geralmente se utiliza o padrão **Domain Model Pattern**, que é uma abordagem de como escrever as classes que vão mapear os modelos do mundo real e implementar os comportamentos do negócio. 
+<div align="center"><img src="https://i.imgur.com/MGmEDuN.png" title="source: imgur.com" /></div>
+
+Todos os conceitos apresentados no diagrama acima são importantes e é necessário compreender muito bem cada um deles para termos condição de realizar uma boa modelagem do domínio.
+
+O diagrama acima representa o padrão **Domain Model Pattern**, que é uma abordagem de como escrever as classes que vão mapear os modelos do mundo real e implementar os comportamentos do negócio. Esse é o modelo mais utilizado e recomendado ao utilizar o DDD.
 
 O Domain Model Patterns são padrões de desenvolvimento e estruturação de aplicações cujo domínio é o principal foco, sendo que eles estão focados em entidades de agregadores, objetos de valor, repositórios e serviços.
 
 O **Domain Model Pattern deve ser isolado dos detalhes da sua arquitetura como persistência (Banco de dados), Linguagem, Framework, entre outros**. 
 
-O Domain Model Pattern atende diversas convenções do DDD como:
+O Domain Model Pattern atende as convenções do DDD. Essas convenções estão representadas nos círculos azuis do Diagrama acima. As convenções expressadas no Diagrama são as seguintes:
 
-- **Domain Model:** Uma entidade do domínio, possui estados e comportamentos, lógica de negócio, getters e setters AdHoc, etc.
-- **Value Object:** Um objeto que agrega valor às entidades, não possui identidade e é imutável. Um exemplo é o endereço de uma Estação de Trem ou Metrô.
-- **Aggregate Object (Objetos Agregados):** são compostos por uma entidade ou um conjunto de entidades e Value Objects que compartilham um mesmo contexto. Por exemplo, o pagamento e uma transação realizada.
+- **Entidade:** Uma entidade do domínio, possui estados e comportamentos, lógica de negócio, getters e setters AdHoc, etc.
+- **Objeto de valor (Value Object):** Um objeto que agrega valor às entidades, não possui identidade e é imutável. Um exemplo é o endereço de uma Estação de Trem ou Metrô.
+- **Objetos Agregados (Aggregate Object)):** são compostos por uma entidade ou um conjunto de entidades e Value Objects que compartilham um mesmo contexto. Por exemplo, o pagamento e uma transação realizada.
 - **Factory:** Classe responsável por construir adequadamente um objeto / entidade.
-- **Domain Service:** Serviço do domínio que atende partes do negócio que não se encaixam em entidades específicas, trabalha com diversas entidades, realiza persistência através de repositórios e etc.
-- **Application Service:** Serviço de aplicação que orquestra ações disparadas pela camada de apresentação e fornece DTO's para comunicação entre as demais camadas e para o consumo da camada de apresentação.
+- **Service:** Serviço do domínio que atende partes do negócio que não se encaixam em entidades específicas, trabalha com diversas entidades, realiza persistência através de repositórios e etc.
 - **Repository:** Uma classe que realiza a persistência das entidades se comunicando diretamente com o meio de acesso aos dados, é utilizado apenas um repositório por agregação.
-- **External Service:** Serviço externo que realiza a consulta/persistência de informações por meios diversos.
-- **Domain Event:** São eventos disparados quando acontece alguma alteração ao domínio. Isso ocorre para que outras partes tenham conhecimento da alteração que aconteceu.
+- **Evento do Domínio (Domain Event):** São eventos disparados quando acontece alguma alteração ao domínio. Isso ocorre para que outras partes tenham conhecimento da alteração que aconteceu.
 
-Atenção! Todos esses conceitos são essenciais para definição do DDD, mas existem princípios relacionados a eles que, quando presentes, não necessariamente significam que sua aplicação utiliza DDD. 
+Todos esses conceitos são essenciais para definição do DDD, mas existem alguns princípios relacionados a cada um deles que, quando presentes, não necessariamente significam que a sua aplicação utiliza DDD, ou seja, não basta simplesmente implementar todos estes conceitos no código, é preciso fazer todo o processo de modelagem proposto pelo DDD para compreender o domínio da aplicação, delimitar os contextos e estabelecer os relacionamentos entre os contextos.
 
 Na imagem abaixo temos uma representação Gráfica destes conceitos:
 
@@ -353,4 +359,4 @@ Ao finalizar o teste você terá mais clareza para determinar se o DDD é viáve
 
 <br /><br />
 
-<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
+<div align="left"><a href="../README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
