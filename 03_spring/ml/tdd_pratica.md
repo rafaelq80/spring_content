@@ -132,6 +132,12 @@ public class TarefaControllerTest {
 }
 ```
 
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/01_deveCriarNovaTarefa/src/test/java/com/generation/todolist/controller/TarefaControllerTest.java" target="_blank"><b>Código fonte da Classe TarefaControllerTest</b></a>
+	
+<br /><br />
+
 4. Para executar o Teste, na **Guia Package Explorer**, no pacote **src/test/java**, clique com o botão direito do mouse sobre a Classe **TarefaControllerTest** e clique na opção **Run As 🡪 JUnit Test**.
 
 5. Acompanhe o resultado do teste, ao lado da **Guia Project Explorer**, na **Guia JUnit**.
@@ -160,6 +166,13 @@ public class TarefaController {
 	
 }
 ```
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/02_Criar_TarefaController/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController</b></a>
+	
+<br /><br />
+
 
 <div align="left"><img src="https://i.imgur.com/mZQkyL4.png" title="source: imgur.com" width="30%"/></div>
 
@@ -198,6 +211,13 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 	}
 ```
 
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/03_deveListarApenasUmaTarefa/src/test/java/com/generation/todolist/controller/TarefaControllerTest.java" target="_blank"><b>Código fonte da Classe TarefaControllerTest</b></a>
+	
+<br /><br />
+
+
 4. Para executar o Teste, na **Guia Package Explorer**, no pacote **src/test/java**, clique com o botão direito do mouse sobre a Classe **TarefaControllerTest** e clique na opção **Run As 🡪 JUnit Test**.
 
 5. Acompanhe o resultado do teste, ao lado da **Guia Project Explorer**, na **Guia JUnit**.
@@ -223,6 +243,13 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 	}
 ```
 
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/04_M%C3%A9todo_getById/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController</b></a>
+
+ <br /><br />
+
+
 <div align="left"><img src="https://i.imgur.com/mZQkyL4.png" title="source: imgur.com" width="30%"/></div>
 
 8. Execute o Teste novamente e observe que desta vez ele passou!
@@ -244,6 +271,13 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 	}
 ```
 
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/05_Refatorar_getById/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController - Refatorada</b></a>
+
+<br /><br />
+
+
 <div align="left"><img src="https://i.imgur.com/xJbRQaM.png" title="source: imgur.com" width="30%"/></div>
 
 12. Execute o Teste novamente e observe que ele continua passando!
@@ -252,7 +286,12 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 13. Neste teste vimos o processo completo do Ciclo do TDD.
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="mudar" target="_blank"><b>Código fonte do Projeto Todo-List - Com os testes</b></a>
+No link abaixo, você confere o projeto completo, finalizado.
+
+<br />
+
+<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/tree/05_Refatorar_getById" target="_blank"><b>Código fonte do Projeto Todo-List</b></a>
+
 <br /><br />
 
-<div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
+<div align="left"><a href="../README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
