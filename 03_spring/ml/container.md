@@ -240,22 +240,18 @@ Agora vamos testar para ver se o nosso serviço está on-line. Você também pod
 
 |Comando		  |Ação                          |
 |-----------------|------------------------------|
-|`docker run --name <name_container> -d -p <porta_Externa:porta_Interna> <imageName>`	|Criar uma imagem e expor uma porta            |
-|`docker ps`     															|Listar todos os containers em execução           |
-|`docker ps -a`																|Listar containers com status stop|
-|`docker exec –it <container_name> /bin/bash`								|Acessar um container|
-|`exit`          															|Sair do container|
-|`docker stop <container_name ou container_id>`								|Pausar um container|
-|`docker rm <container_name ou container_id>`  								|Remover um container|
-|`docker restart <container_name ou container_id>`							|Reiniciar container|
-|`docker inspect <container_name ou container_id>`							|Mais informações sobre o container|
-|`docker build -t <imagem> .`												|Cria uma imagem apartir de um dockerfile|
+|`docker run --name <name_container> -d -p <porta_Externa:porta_Interna> <imageName>`	|Cria uma imagem e expõe uma porta            |
+|`docker ps`     															|Lista todos os containers em execução           |
+|`docker ps -a`																|Lista todos os containers com status stop|
+|`docker exec –it <container_name> /bin/bash`								|Acessa um container|
+|`exit`          															|Sai do container|
+|`docker stop <container_name ou container_id>`								|Pausa um container|
+|`docker rm <container_name ou container_id>`  								|Remove um container|
+|`docker restart <container_name ou container_id>`							|Reinicia container|
+|`docker inspect <container_name ou container_id>`							|Exibe mais informações sobre o container|
+|`docker build -t <imagem> .`												|Cria uma imagem a partir de um Dockerfile|
 |`docker images`															|Lista todas as imagens criadas|
-|`docker inspect <container_name ou container_id>`							|Mais informações sobre o container|
-|`docker inspect <container_name ou container_id>`							|Mais informações sobre o container|
-|`docker container run --<name_container> teste -d -p pExterna:pInterna <nome_imagem>`|Cria um container baseado na imagem contida dentro da instacia do docker|
-
-
+|`docker container run --<name_container> teste -d -p pExterna:pInterna <nome_imagem>`|Cria um container baseado na imagem contida dentro da instancia do Docker|
 
 <br /><br />
 
