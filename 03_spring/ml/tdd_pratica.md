@@ -27,7 +27,7 @@ O projeto guia está disponível no link abaixo:
 
 <div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist" target="_blank"><b>Código fonte do Projeto Guia - Todo-List</b></a>
 
-
+<br /><br />
 
 Após acessar o repositório, vamos seguir a sequência de passos abaixo:
 
@@ -77,8 +77,6 @@ git clone https://github.com/rafaelq80/tdd_todolist.git
 
 5. Observe que o projeto já está todo configurado para criar testes.
 
-
-
 <h2>👣 Passo 03 - Criar o teste do Método Criar nova Tarefa</h2>
 
 Vamos criar o nosso primeiro teste, seguindo modelo TDD:
@@ -99,10 +97,12 @@ Na sequência, vamos criar a Classe TarefaControllerTest, que será utilizada pa
 
 <div align="center"><img src="https://i.imgur.com/cYCwS5J.png" title="source: imgur.com" /></div>
 
-
+<br />
 
 <div align="left"><img src="https://i.imgur.com/dOTBVQA.png" title="source: imgur.com" width="30%"/></div>
 
+<br />
+	
 3. Implemente o código abaixo na Classe **TarefaControllerTest**. Na implementação abaixo vamos criar o Método de teste **Criar tarefa**:
 
 ```java
@@ -146,8 +146,12 @@ public class TarefaControllerTest {
 
 6. Observe que o teste falhou, porquê a **Classe TarefaController** ainda não foi criada. 
 
+<br />
+	
 <div align="left"><img src="https://i.imgur.com/inLGEAu.png" title="source: imgur.com" width="30%"/></div>
 
+<br />
+	
 7. Vamos criar a Classe **TarefaController** na Source folder Principal (**src/test/java**), no pacote **com.generation.todolist.controller** e implemente o código abaixo:
 
 ```java
@@ -175,6 +179,8 @@ public class TarefaController {
 
 
 <div align="left"><img src="https://i.imgur.com/mZQkyL4.png" title="source: imgur.com" width="30%"/></div>
+	
+<br />
 
 8. Execute o Teste novamente e observe que desta vez ele passou!
 
@@ -186,12 +192,13 @@ public class TarefaController {
 
 <h2>👣 Passo 04 - Criar o teste do Método listar Tarefas por id</h2>
 
-
-
 Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **TarefaControllerTest**, seguindo o modelo TDD:
 
+<br />
 
 <div align="left"><img src="https://i.imgur.com/dOTBVQA.png" title="source: imgur.com" width="30%"/></div>
+
+<br />
 
 1. Implemente o Método **deveListarApenasUmaTarefa()**, na Classe **TarefaControllerTest**, logo abaixo do Método **deveCriarNovaTarefa()**:
 
@@ -217,7 +224,6 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 	
 <br /><br />
 
-
 4. Para executar o Teste, na **Guia Package Explorer**, no pacote **src/test/java**, clique com o botão direito do mouse sobre a Classe **TarefaControllerTest** e clique na opção **Run As 🡪 JUnit Test**.
 
 5. Acompanhe o resultado do teste, ao lado da **Guia Project Explorer**, na **Guia JUnit**.
@@ -226,7 +232,11 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 6. Observe que o teste falhou, porquê o Método **findById(Long id)** ainda não foi implementado na **Classe TarefaController**. 
 
+<br />
+
 <div align="left"><img src="https://i.imgur.com/inLGEAu.png" title="source: imgur.com" width="30%"/></div>
+
+<br />
 
 7. Vamos criar o Método **findById(Long id)** na Classe **TarefaController**, logo abaixo do Método **post(Tarefa tarefa)**:
 
@@ -249,8 +259,9 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
  <br /><br />
 
-
 <div align="left"><img src="https://i.imgur.com/mZQkyL4.png" title="source: imgur.com" width="30%"/></div>
+
+<br />
 
 8. Execute o Teste novamente e observe que desta vez ele passou!
 
@@ -258,7 +269,11 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 10. Observe que na implementação do Método **findById(Long id)**, foi feito o mínimo para passar o teste, entretanto nesta implementação o código pode ser melhorado, ou seja, **Refatorado**. Esta implementação está muito grande (verbosa) e pode ficar mais limpa.
 
+<br />
+
 <div align="left"><img src="https://i.imgur.com/lkXnEHl.png" title="source: imgur.com" width="30%"/></div>
+
+<br />
 
 11. Vamos refatorar o Método **findById(Long id)** utilizando uma **Expressão Lambda** em conjunto com o **Optional map**, como mostra o código abaixo:
 
@@ -277,8 +292,9 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 <br /><br />
 
-
 <div align="left"><img src="https://i.imgur.com/xJbRQaM.png" title="source: imgur.com" width="30%"/></div>
+
+<br />
 
 12. Execute o Teste novamente e observe que ele continua passando!
 
