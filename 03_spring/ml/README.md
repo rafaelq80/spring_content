@@ -3,7 +3,7 @@
 </div>
 <h1><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com" width="40px"/>Bootcamp - Java Full Stack </h1>
 
-<h2><img src="https://i.imgur.com/XFnTrpX.png" title="source: imgur.com" width="35px"/>Backend - Spring</h2>
+<h2><img src="https://i.imgur.com/XFnTrpX.png" title="source: imgur.com" width="35px"/>Devops - Spring</h2>
 
 1. <a href="ddd.md" >Introdução ao Domain-Driven Design - DDD</a>
 2. <a href="tdd.md" >Introdução ao Test-Driven Development - TDD</a>
