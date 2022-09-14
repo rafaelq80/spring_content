@@ -27,15 +27,13 @@
 20. <a href="20.md" >Projeto Blog Pessoal - Teste Unitário - Testes na Camada Repository</a>
 21. <a href="21.md" >Projeto Blog Pessoal - Teste Unitário - Testes na Camada Controller</a>
 22. <a href="22.md" >Projeto Blog Pessoal - Documentação com SpringDoc</a>
-23. <a href="23.md" >Projeto Blog Pessoal - Deploy no Heroku via Github</a>
+23. <a href="24.md" >Projeto Blog Pessoal - Deploy no Render via Github</a>
 
 <h2><img src="https://i.imgur.com/XFnTrpX.png" title="source: imgur.com" width="35px"/>Anexos</h2>
 
-01. <a href="java_tipos.md" >Tipos de dados - Java</a>
-02. <a href="guia_jpa.md" >Guia do JPA</a>
-03. <a href="uml.md" >Diagrama de Classes</a>
-04. <a href="deploy_client.md" >Projeto Blog Pessoal - Deploy no Heroku via Heroku Client</a>
-05. <a href="deploy_organizacao.md" >Projeto Integrador - Deploy no Heroku - Git Organization</a>
+01. <a href="java_tipos.md">Tipos de dados - Java</a>
+02. <a href="guia_jpa.md">Guia do JPA</a>
+03. <a href="uml.md">Diagrama de Classes</a>
 
 <br /><br />
 	
