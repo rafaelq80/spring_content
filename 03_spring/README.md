@@ -34,7 +34,7 @@
 01. <a href="java_tipos.md">Tipos de dados - Java</a>
 02. <a href="guia_jpa.md">Guia do JPA</a>
 03. <a href="uml.md">Diagrama de Classes</a>
-04. <a href="/extras/deploy_organizacao_render.md" >Projeto Blog Pessoal - Deploy no Render via Github</a>
+04. <a href="./extras/deploy_organizacao_render.md" >Projeto Blog Pessoal - Deploy no Render via Github</a>
 
 <br /><br />
 	
