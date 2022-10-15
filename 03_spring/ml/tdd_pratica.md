@@ -25,7 +25,7 @@ class Tarefa {
 
 O projeto guia está disponível no link abaixo:
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist" target="_blank"><b>Código fonte do Projeto Guia - Todo-List</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist" target="_blank"><b>Código fonte do Projeto Guia - Todo-List</b></a>
 
 <br /><br />
 
@@ -134,7 +134,7 @@ public class TarefaControllerTest {
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/01_deveCriarNovaTarefa/src/test/java/com/generation/todolist/controller/TarefaControllerTest.java" target="_blank"><b>Código fonte da Classe TarefaControllerTest</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/01_deveCriarNovaTarefa/src/test/java/com/generation/todolist/controller/TarefaControllerTest.java" target="_blank"><b>Código fonte da Classe TarefaControllerTest</b></a>
 	
 <br /><br />
 
@@ -173,7 +173,7 @@ public class TarefaController {
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/02_Criar_TarefaController/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/02_Criar_TarefaController/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController</b></a>
 	
 <br /><br />
 
@@ -220,7 +220,7 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/03_deveListarApenasUmaTarefa/src/test/java/com/generation/todolist/controller/TarefaControllerTest.java" target="_blank"><b>Código fonte da Classe TarefaControllerTest</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/03_deveListarApenasUmaTarefa/src/test/java/com/generation/todolist/controller/TarefaControllerTest.java" target="_blank"><b>Código fonte da Classe TarefaControllerTest</b></a>
 	
 <br /><br />
 
@@ -255,7 +255,7 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/04_M%C3%A9todo_getById/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/04_M%C3%A9todo_getById/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController</b></a>
 
  <br /><br />
 
@@ -288,7 +288,7 @@ Vamos implementar o Método de teste **Listar tarefas por id**, na Classe **Tare
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/05_Refatorar_getById/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController - Refatorada</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/blob/05_Refatorar_getById/src/main/java/com/generation/todolist/controller/TarefaController.java" target="_blank"><b>Código fonte da Classe TarefaController - Refatorada</b></a>
 
 <br /><br />
 
@@ -306,7 +306,7 @@ No link abaixo, você confere o projeto completo, finalizado.
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/tree/05_Refatorar_getById" target="_blank"><b>Código fonte do Projeto Todo-List</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/tdd_todolist/tree/05_Refatorar_getById" target="_blank"><b>Código fonte do Projeto Todo-List</b></a>
 
 <br /><br />
 

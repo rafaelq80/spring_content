@@ -189,7 +189,7 @@ java.runtime.version=17
 
 <br />
 
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/conteudoGeneration/backend_blog_pessoal/blob/19-blog_pessoal_Deploy_Heroku/blogpessoal/system.properties" target="_blank"><b>Código fonte: system.properties</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/conteudoGeneration/backend_blog_pessoal/blob/19-blog_pessoal_Deploy_Heroku/blogpessoal/system.properties" target="_blank"><b>Código fonte: system.properties</b></a>
 
 <h2>👣 Passo 07 - Adicionar a Dependência do PostgreSQL no pom.xml</h2>
 
@@ -312,7 +312,7 @@ Para o Deploy, devemos deixar a linha **spring.profiles.active** configurada com
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="150px"/> | <div align="left"> **ATENÇÃO:** *Caso o projeto seja inicializado normalmente com o perfil prod, verifique se os nomes dos arquivos de perfil e as configurações estão corretas. Se peristir, execute o comando Update Project.* </div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 	
-<div align="left"><img src="https://i.imgur.com/bQGvf3h.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/conteudoGeneration/backend_blog_pessoal/tree/19-blog_pessoal_Deploy_Heroku" target="_blank"><b>Código fonte: Projeto finalizado</b></a>
+<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/conteudoGeneration/backend_blog_pessoal/tree/19-blog_pessoal_Deploy_Heroku" target="_blank"><b>Código fonte: Projeto finalizado</b></a>
 
 <h2>👣 Passo 09 - Deploy com o Git</h2>
 
