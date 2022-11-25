@@ -13,24 +13,24 @@ Algumas coisas importantes devem ser questionadas ao avaliar a eficiência de um
 - O fluxo de trabalho simplifica o processo de desfazer erros?
 
 - O fluxo de trabalho impõe alguma nova sobrecarga cognitiva desnecessária à equipe?
-    
+  
 <h3>1.1) Tipos de Fluxo </h3>
 
 -   **Fluxo de trabalho centralizado:** A ideia central por trás do Fluxo de trabalho centralizado é que todo o desenvolvimento de recursos deve ocorrer na branch main.
 
-<div align="center"><img src="https://i.imgur.com/NS5z2jp.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/hwksZ3o.png" title="source: imgur.com" /></div>
 
 -   **Fluxo de trabalho de ramificação de recurso:**  A ideia central por trás do Fluxo de trabalho de ramificação de recursos é que cada feature deve ocorrer em uma Branch dedicada, que só é enviada para a Branch Main quando se torna parte de uma nova versão.
 
-<div align="center"><img src="https://i.imgur.com/liBllHu.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/nmRQnQc.png" title="source: imgur.com" /></div>
 
 -   **Fluxo de trabalho Gitflow:** Define um modelo de ramificação rigoroso projetado com base no lançamento do projeto oferecendo uma estrutura robusta para gerenciar grandes projetos. 
 
-<div align="center"><img src="https://i.imgur.com/ZDofWfw.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/ia9GWIP.png" title="source: imgur.com" /></div>
 
 <br />
 
-<img width="30px" src="https://i.imgur.com/4gupQvJ.png" title="source: imgur.com" />  Para saber mais sobre o GitFlow, assista ao vídeo *Trabalhando em equipe com Git Flow* no link: <a href="https://www.youtube.com/watch?v=394mc6PV8t8" target="_blank">https://www.youtube.com/watch?v=394mc6PV8t8</a>
+<img width="30px" src="https://i.imgur.com/GQKtp6q.png" title="source: imgur.com" />  Para saber mais sobre o GitFlow, assista ao vídeo *Trabalhando em equipe com Git Flow* no link: <a href="https://www.youtube.com/watch?v=394mc6PV8t8" target="_blank">https://www.youtube.com/watch?v=394mc6PV8t8</a>
 
 <br />
 
@@ -390,186 +390,13 @@ git pull origin main
 
 <br />
 
-| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="200px"/> | <div align="left"> **DICA:** *Nos próximos capítulos veremos algumas situações corriqueiras, que podem acontecer no Git. Caso você queira praticar, recomendamos que o grupo  crie um repositório novo para efetuar os testes* </div> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-<h2>5) Desfazendo mudanças no repositório local</h2>
-
-A partir deste Capítulo nós veremos algumas simulações com situações corriqueiras, entre elas como desfazer alterações no repositório local.
-
-1.  Crie uma nova Branch com o nome **teste**
-	
-```bash
-git checkout -b teste
-```
-
-2.  Crie uma pasta chamada **db** em **src/main/resources** 
-3.  Dentro da pasta, crie um arquivo chamado **projeto.sql**
-4.  Abra o arquivo **projeto.sql** dentro do STS clicando com o botão direito do mouse sobre o arquivo e na sequência clique na opção:  **Open with 🡢 Text Editor**
-5.  Insira a instrução SQL abaixo no arquivo projeto.sql e salve o arquivo
-```SQL
-SELECT * FROM alunos;
-```
-
-5.  Volte para o Gitbash
-    
-6.  Adicione as alterações na **branch teste**
- ```bash
-git add .
-
-git commit -m “Criar Branch Teste”
- ```
-
-7.  Confirme se os arquivos foram “Commitados”
-```bash
-git status
-```
-
-8.  Agora, vamos desfazer este **último commit**
-
-```bash
-git reset HEAD~1
-
-git status
-```
-9.  Observe que o commit foi desfeito, mas a pasta **db** continua existindo e está pronta para ser adicionada na branch **teste**
-
-<div align="center"><img width="900px" src="https://i.imgur.com/tl27sLQ.png" title="source: imgur.com" /></div>
-
-10. Vamos refazer este último Commit
-```bash
-git add .
-
-git commit -m “Criar Branch Teste”
-```
-11.  Agora, vamos desfazer este último commit e apagar a pasta db e todo o seu conteúdo
-
-```bash
-git reset --hard HEAD~1
-```
-12.  Observe que além de desfazer o commit, o arquivo **projeto.sql** e a pasta **db** foram apagadas (Observe no STS)
-    
-13.  Refaça todas tarefas a partir do passo 2 até o passo 7
-    
-14.  Após reafazer as tarefas, volte para a Branch Main
-```bash
-git checkout main
-```
-15.  Atualize a Branch Main com as implementações realizadas na Branch **teste**
-
-```bash
-git merge teste
-```
-16.  Envie as atualizações para o Github
-```bash
-git push origin main
-```
-
-17. Observe que a **Branch Teste** não foi enviada para o Github, porque ela não recebeu o comando:  **git push -u origin teste** que envia uma branch específica para o repositório remoto no Github.
-
-<h2>6) Resolução de Conflitos
-
-<h3>6.1) Criando o conflito no Github </h3>
-
-1. No Github, substitua o conteúdo do arquivo **projeto.sql**, na branch main, pelas linhas abaixo:
-
-```sql
-SELECT * FROM tb_alunos;
-
-SELECT * FROM tb_alunos WHERE id = 1;
-```
-
-2. Faça o commit das alterações clicando no botão <img width="100px" src="https://i.imgur.com/MlcaB6V.png" title="source: imgur.com" />
-
-<div align="center"><img src="https://i.imgur.com/oszVDu0.png" title="source: imgur.com" /></div>
-
-<h3>6.2) Criando o Conflito no Git Local </h3>
-
-1. No seu Repositório Local, substitua o conteúdo do arquivo **projeto.sql**, na branch main, pelas linhas abaixo:
-
-```SQL
-SELECT * FROM tb_alunos ORDER BY id;
-```
-
-2. Adicione as alterações na Branch Main
-
-```bash
-git add .
-
-git commit -m “Update projeto.sql”
-```
-
-3.  Confirme se os arquivos foram “Commitados”
-	
-```bash
-git status
-```
-
-4. Execute o comando **git pull** para atualizar o repositório local com as atualizações do repositório remoto
-
-```bash
-git pull origin main
-```
-
-5. Observe que no final da Mensagem aparece a palavra **CONFLICT**
-
-<div align="center"><img width="900px" src="https://i.imgur.com/aTy4fnG.png" title="source: imgur.com" /></div>
-
-6. Vamos abrir o arquivo no **VSCode** e verificar os conflitos
-
-```bash
-code .
-```
-
-7.  Serão exibidas as diferenças encontradas nos dois arquivos: Local e Remoto, como mostra a figura abaixo:
-
-<div align="center"><img width="900px" src="https://i.imgur.com/ljBXL2t.png" title="source: imgur.com" /></div>
-
-8. O **VSCode** oferece **3 opções** para resolver o conflito e mais uma para ajudar na decisão:
-
-	 - <b>Accept Current Change:</b> Mantém a mudança local 
-	 - <b>Accept Incoming Change:</b> Mantém a mudança remota 
-	 - <b>Accept Both Changes:</b> Mantém as 2 mudanças 
-	 - <b>Compare Changes:</b>  Exibe os 2 arquivos lado a lado, para  que você possa comparar
-  
-9. Clique em uma das opções e salve o arquivo para concluir
-
-10. Adicione as alterações na Branch Main Local e cheque o Status
-
-```bash
-git add .
-
-git status
-```
-
-11. Observe que o conflito foi resolvido
-
-<div align="left"><img src="https://i.imgur.com/ydr1TMn.png" title="source: imgur.com" /></div>
-
-12. Faça o Commit das alterações
-
-```bash
-git commit -m “Resolução do Conflito”
-```
-
-13. Envie as atualizações para o Github
-
-```bash
-git push origin main
-```
-
-14. Conflito resolvido e ambos os repositórios estão atualizados.
-
-| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="120px"/> | <div align="left">**DICA:** *Para evitar conflitos, crie o hábito de sempre atualizar o repositório local, com o conteúdo do repositório remoto, através da execução do comando <code><b>git pull</b></code> antes de começar a trabalhar no projeto.* </div> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-
-<h2>7) Trabalhando com o Fork</h2>
+<h2>5) Trabalhando com o Fork</h2>
 
 O **Fork** é um recurso do Github,  que permite fazer a cópia integral de um repositório de uma pessoa desenvolvedora para o seu repositório no Github. Após você efetuar o Fork de uma repositório, você poderá editar os arquivos e posteriormente enviar para o repositório original as suas implementações e melhorias do projeto. Caso a pessoa desenvolvedora aceite as suas implementações, seus códigos passaram a fazer parte do repositório original. O processo de enviar contribuições para o repositório de origem do Fork é chamado de **Pull Request**.
 
 Para manter o repositório atualizado com os últimos commits realizados no repositório origem, utilizamos o recurso chamado **Fetch upstream**.
 
-<h3>7.1) Adicionando um Repositório via Fork</h3>
+<h3>5.1) Adicionando um Repositório via Fork</h3>
 
 1. Acesse o repositório que você deseja adicionar no seu repositório remoto
 
@@ -581,7 +408,7 @@ Para manter o repositório atualizado com os últimos commits realizados no repo
 
 <div align="left"><img src="https://i.imgur.com/gLIwonY.png" title="source: imgur.com" /></div>
 
-<h3>7.2) Pull Request</h3>
+<h3>5.2) Pull Request</h3>
 
 Agora vamos enviar uma contribuição para o repositório origem.
 
@@ -614,7 +441,7 @@ Agora vamos enviar uma contribuição para o repositório origem.
 
 <div align="center"><img src="https://i.imgur.com/hCFiVAR.png" title="source: imgur.com" /></div>
 
-<h3>7.3) Fetch upstream</h3>
+<h3>5.3) Fetch upstream</h3>
 
 Agora vamos atualizar o repositório Fork com todos os commits recentes do repositório origem
 
@@ -629,7 +456,7 @@ Agora vamos atualizar o repositório Fork com todos os commits recentes do repos
 
 <div align="center"><img src="https://i.imgur.com/TA4wgjZ.png" title="source: imgur.com" /></div> 
 
-<h2>8) Comandos úteis</h2>
+<h2>6) Comandos úteis</h2>
 
   1. Criar uma Branch no Github
 ```bash
