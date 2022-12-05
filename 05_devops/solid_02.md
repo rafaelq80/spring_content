@@ -8,7 +8,7 @@ O **Princípio de Aberto/Fechado** diz que:
 
 <br />
 
-<div align="center"><img src="https://i.imgur.com/VT5cIl5.png" title="source: imgur.com"/>
+<div align="center"><img src="https://i.imgur.com/VT5cIl5.png" title="source: imgur.com"/></div>
 
 <br />
 
