@@ -12,7 +12,7 @@ O **Princípio de Responsabilidade Única** reforça o uso da coesão, afirmando
 
 <br />
 
-<div align="center"><img src="https://i.imgur.com/A8efp8H.png" title="source: imgur.com"/>
+<div align="center"><img src="https://i.imgur.com/A8efp8H.png" title="source: imgur.com"/></div>
 
 <br />
 
