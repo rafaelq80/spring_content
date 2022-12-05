@@ -2,7 +2,7 @@
     <img src="https://i.imgur.com/w8tTOuT.png" title="source: imgur.com" /> 
 </div>
 <h1><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com" width="40px"/>Bootcamp - Java Full Stack </h1>
-	
+
 <h2>Conteúdos</h2>
 
 <table width="100%">
@@ -25,6 +25,10 @@
     <tr>
         <td><img src="https://i.imgur.com/fu9QxlT.png" title="source: imgur.com"/></td>
         <td><a href="04_fluxo_git/README.md">Fluxo de trabalho Git</a></td>
+    </tr>
+    <tr>
+        <td><img src="https://i.imgur.com/KOZy0uM.png" title="source: imgur.com"/></td>
+        <td><a href="05_devops/README.md">DEVOPS</a></td>
     </tr>
 </table>
 

@@ -6,9 +6,16 @@
 <h2><img src="https://i.imgur.com/KOZy0uM.png" title="source: imgur.com" width="45px"/>DevOps</h2>
 
 1. <a href="solid.md" >Introdução ao SOLID Pattern</a>
+   1. <a href="solid_01.md" >Princípio da Responsabilidade Única</a>
+   2. <a href="solid_02.md" >Princípio Aberto-Fechado</a>
+   3. <a href="solid_03.md" >Princípio da Substituição de Liskov</a>
+   4. <a href="solid_04.md" >Princípio da Segregação de Interfaces</a>
+   5. <a href="solid_05.md" >Princípio da Inversão de Dependências</a>
+
 2. <a href="ddd.md" >Introdução ao Domain-Driven Design - DDD</a>
-2. <a href="tdd.md" >Introdução ao Test-Driven Development - TDD</a>
-3. <a href="tdd_pratica.md" >TDD na prática</a>
+3. <a href="tdd.md" >Introdução ao Test-Driven Development - TDD</a>
+   1. <a href="tdd_pratica.md" >TDD na prática</a>
+
 4. <a href="container.md" >Introdução a Containers</a>
 5. <a href="orquestrador.md" >Introdução a Orquestradores de Containers</a>
 6. <a href="ci_cd.md" >Continuous Integration / Continuous Delivery (CI/CD)</a>
