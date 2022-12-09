@@ -152,7 +152,7 @@ public class TarefaControllerTest {
 
 <br />
 	
-7. Vamos criar a Classe **TarefaController** na Source folder Principal (**src/test/java**), no pacote **com.generation.todolist.controller** e implemente o código abaixo:
+7. Vamos criar a Classe **TarefaController** na Source folder Principal (**src/main/java**), no pacote **com.generation.todolist.controller** e implemente o código abaixo:
 
 ```java
 @RestController
