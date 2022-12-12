@@ -42,7 +42,7 @@ A maneira mais fácil de iniciar seu fluxo de trabalho é usando um dos muitos m
 
 <div align="left"><img src="https://i.imgur.com/NUt6bS8.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/marketplace?category=&query=&type=actions&verification=" target="_blank"><b>Github Marketplace</b></a>
 
-<br />
+<br /><br />
 
 Neste repositório existem modelos de actions para diversas tarefas de um pipeline CI/CD, como executar o Java, fazer o Deploy no Azure, entre outras.
 
