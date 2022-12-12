@@ -1,4 +1,4 @@
-<h1>Introdução a CI/CD: integração e Entrega Contínuas</h1>
+<h1>Introdução a CI/CD: Integração e Entrega Contínuas</h1>
 
 
 
