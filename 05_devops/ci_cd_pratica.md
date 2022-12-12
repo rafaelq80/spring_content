@@ -80,11 +80,11 @@ git clone https://github.com/rafaelq80/cicd_helloworld.git
 
 <div align="center"><img src="https://i.imgur.com/72JjCAi.png" title="source: imgur.com" /></div>
 
-2. Abra a pasta **cicd_helloworld**
+3. Abra a pasta **cicd_helloworld**
 
 <div align="left"><img src="https://i.imgur.com/Tibtn4y.png" title="source: imgur.com" /></div>
 
-3. Dentro da pasta **cicd_helloworld**, clique com o botão direito do mouse e clique na opção: **Git Bash Here**
+4. Dentro da pasta **cicd_helloworld**, clique com o botão direito do mouse e clique na opção: **Git Bash Here**
 
 
 <div align="center"><img src="https://i.imgur.com/A93QtUn.png" title="source: imgur.com" /></div>
@@ -237,23 +237,23 @@ Agora que conhecemos o serviço Railway.app, vamos começar a criar o nosso Work
 
 <div align="center"><img src="https://i.imgur.com/9DpY1x4.png" title="source: imgur.com" /></div>
 
-3. Clique na conta do Github, como indicado na imagem abaixo:
+4. Clique na conta do Github, como indicado na imagem abaixo:
 
 <div align="center"><img src="https://i.imgur.com/JHj8Iy0.png" title="source: imgur.com" /></div>
 
-4. Na janela **Install & Authorize Railway App**, marque a opção **All repositories** e clique no botão **Install & Authorize** para autorizar o acesso à todos os repositórios da sua conta do Github.
+5. Na janela **Install & Authorize Railway App**, marque a opção **All repositories** e clique no botão **Install & Authorize** para autorizar o acesso à todos os repositórios da sua conta do Github.
 
 <div align="center"><img src="https://i.imgur.com/tFsNBKS.png" title="source: imgur.com" /></div>
 
-5. Clique no Repositório onde o **projeto github_actions** foi hospedado.
+6. Clique no Repositório onde o **projeto github_actions** foi hospedado.
 
 <div align="center"><img src="https://i.imgur.com/svIJdFW.png" title="source: imgur.com" /></div>
 
-6. Clique no link **Deploy Now**, para iniciar o deploy.
+7. Clique no link **Deploy Now**, para iniciar o deploy.
 
 <div align="center"><img src="https://i.imgur.com/pH9mTAE.png" title="source: imgur.com" /></div>
 
-7. Ao finalizar o deploy, será exibida a mensagem **Sucess**, como mostra a imagem abaixo:
+8. Ao finalizar o deploy, será exibida a mensagem **Sucess**, como mostra a imagem abaixo:
 
 <div align="center"><img src="https://i.imgur.com/MBTotjK.png" title="source: imgur.com" /></div>
 
