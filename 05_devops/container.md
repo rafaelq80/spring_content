@@ -6,7 +6,9 @@ Uma **Máquina Virtual**, conhecida como guest, é criada dentro de um ambiente 
 
 Agora imagine que temos um computador com o Sistema Operacional Windows instalado e através de um software de virtualização, como o Vmware, o VirtualBox, o Hyper-V entre outros, tenhamos a capacidade de criar alguns "Computadores Virtuais", executando outros Sistemas Operacionais, como o Linux, por exemplo, dentro deste computador.
 
-![enter image description here](https://i.imgur.com/DlT4qhU.png)
+<div align="center"><img src="https://i.imgur.com/DlT4qhU.png" title="source: imgur.com" /></div>
+
+<br />
 
 <h3>1.1. Quais são as desvantagens?</h3>
 
@@ -32,7 +34,7 @@ Para utilizarmos e criarmos os containers precisamos adotar um sistema de gerenc
 <h2>3. Introdução ao Docker</h2>
 
 
-O Docker é uma ferramenta de containerização de código aberto, que foi muito importante para estimular a adoção de projetos de aplicativos baseados em componentes com microsserviços independentes. Embora existam outros sistemas de containerização, o Docker tornou-se popular por fornecer uma interface mais acessível e abrangente em torno da tecnologia. [link da pesquisa](https://www.digitalocean.com/community/tutorials/what-is-a-container)
+O Docker é uma ferramenta de containerização de código aberto, que foi muito importante para estimular a adoção de projetos de aplicativos baseados em componentes com microsserviços independentes. Embora existam outros sistemas de containerização, o Docker tornou-se popular por fornecer uma interface mais acessível e abrangente em torno da tecnologia.
 
 Neste caso usaremos o Docker para a criação e manipulação dos nossos containers e para efetuarmos a instalação das nossas imagens.
 
@@ -44,7 +46,7 @@ No serviço [**DockerHub**](https://hub.docker.com/) temos vários ambientes con
 
 Para termos acesso a essas imagens, precisamos acessar  site do Docker Hub e fazer o cadastro clicando no link **Register** preenchendo o formulário abaixo:
 
-![enter image description here](https://i.imgur.com/LGmwHss.png)
+<div align="center"><img src="https://i.imgur.com/LGmwHss.png" title="source: imgur.com" /></div>
 
 Após registrar, faça o login no Docker hub e você terá acesso a tela abaixo:
 
@@ -66,7 +68,9 @@ O código disponível no canto superior direito `docker pull nginx` servirá ape
 
 ![enter image description here](https://i.imgur.com/LhfESIa.png)
 
-     docker run --name serverHttp -d -p 8080:80 nginx
+```bash
+ docker run --name serverHttp -d -p 8080:80 nginx
+```
 
 Atentes de avançarmos vamos entender o código:
 
@@ -113,7 +117,9 @@ Enumeramos cada item para melhor compreensão
 
 No console do Docker Playground, execute o seguinte comando:
 
- `docker run --name serverHttp -d -p 8080:80 nginx`
+```bash
+docker run --name serverHttp -d -p 8080:80 nginx
+```
 
 ![enter image description here](https://i.imgur.com/AmrBxAE.png) 
 
@@ -123,7 +129,9 @@ Repare que no campo 2, já temos a porta 8080 disponível para acesso. Vamos cli
 
 ***Listando todos os containers que estão em execução:***
 
- `docker ps`
+```bash
+docker ps
+```
 
 Ao digitar o comando `docker ps` podemos ver as seguintes informações, de cada container que esta em execução: 
 
@@ -143,23 +151,37 @@ Também podemos entrar no container que está em modo de execução com o comand
 
  `docker exec –it <container_name> /bin/bash`
 
+```bash
+docker exec -it serverHttp /bin/bash
+```
+
 ![enter image description here](https://i.imgur.com/7Nfv4Kh.png)
 
 Uma vez dentro do container podemos navegar por `/usr/share/nginx/html` e nesta pasta encontraremos o arquivo html que contem a pagina inicial do nginx. Nesta  pasta podemos colocar nossa pagina web para expor o nosso site. 
 
 Para sair do container basta executar o comando:
 
- `exit`
+```bash
+exit
+```
 
 Além disso, podemos pausar nosso container com o comando:
 
- `docker stop <container_name ou container_id>` 
+ `docker stop <container_name ou container_id>`
 
-**importante**: Uma vez que o container esteja com o status stop, nós só poderemos listar ele através do comando: `docker ps -a` 
+```bash
+docker stop serverHttp
+```
+
+ **importante**: Uma vez que o container esteja com o status stop, nós só poderemos listar ele através do comando: `docker ps -a` 
 
 Para excluir o container utilizamos o comando:
 
  `docker rm <container_name ou container_id>` 
+
+```bash
+docker rm serverHttp
+```
 
 **Importante**: só podemos excluir containers que estão com o status stop.
 
@@ -167,7 +189,7 @@ Para excluir o container utilizamos o comando:
 
 A interface de linha de comando é o jeito manual de fazer as coisas. No nosso caso não é complexo fazer o pull, run, ps e stop de uma imagem, mas há como automatizar esse processo utilizando **_Dockerfiles._** Esses arquivos nada mais são do que listas de instruções utilizadas para automatizar a criação e configuração de containers. Também podemos salvar estes arquivos ao invés de decorar cada comando. O Dockerfile é uma maneira de criarmos containers com mais de uma configuração, como no exemplo abaixo, criaremos um container com um sistema operacional Linux Debian e instalaremos o serviço do Nginx dentro do sistema operacional que está dentro do container.
 
-**Importante**: Vamos criar o arquivo Dockerfle no VSCode e salvaremos com o nome Dockerfile.
+**Importante**: Vamos criar o arquivo Dockerfile no VSCode e salvaremos com o nome Dockerfile.
 
 ```dockerfile
 # define a imagem base 
@@ -195,13 +217,15 @@ Após a criação do arquivo, arraste e solte o arquivo no Terminal do Docker Pl
 
 Pronto! uma vez que o arquivo Dockerfile foi incluso dentro da pasta basta executar o seguinte comando:
 
- `ocker build -t <imagem> .`
+ `docker build -t <imagem> .`
 
 Vamos supor que você deseje criar a imagem com o nome: generation/nginx:1.0
 
 Para fazer isso usamos o comando **build** e informamos o  nome da imagem, a tag e um ponto(.). O comando fica assim:
 
-`docker build -t generation/nginx .`
+```bash
+docker build -t generation/nginx .
+```
 
 - **docker build**:  O comando  
 - **-t**:  Parâmetro usado para informar que a imagem pertence ao meu usuário  
@@ -220,7 +244,11 @@ Para fazer isso usamos o comando **build** e informamos o  nome da imagem, a tag
 
 ![Imagem Criada](https://i.imgur.com/3rn55an.png)
 
-Para conferir se a imagem foi criada e também todas as imagens armazenadas nesta instancia do docker, basta executar o comando: `docker images`.
+Para conferir se a imagem foi criada e também todas as imagens armazenadas nesta instancia do docker, basta executar o comando: 
+
+```bash
+docker images
+```
 
 ![Docker images](https://i.imgur.com/Qx3rNlP.png)
 
@@ -228,11 +256,19 @@ Repare que o Docker precisou baixar a imagem do Linux Debian antes de criar a no
 
 Uma vez que já temos a imagem criada, basta criar o container com a imagem usando o comando:
 
- `docker container run --name teste -d -p 80:80 generation/nginx`
+```bash
+docker container run --name teste -d -p 80:80 generation/nginx
+```
 
 ![enter image description here](https://i.imgur.com/Ktam9pT.png)
 
-Agora vamos testar para ver se o nosso serviço está on-line. Você também pode executar o comando: `docker ps` para ver os containers que estão em modo de execução.
+Agora vamos testar para ver se o nosso serviço está on-line. Você também pode executar o comando: 
+
+```bash
+docker ps
+```
+
+Você verá todos os containers que estão em modo de execução.
 
 ![enter image description here](https://i.imgur.com/NBCrzSx.png)
 
