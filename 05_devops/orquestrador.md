@@ -30,9 +30,9 @@ Desta forma caso haja algum evento que derrube o container ou interrompa a conex
 
 Neste cenário desafiador, naturalmente você terá que dividir seu aplicativo gigante em partes menores, cada uma responsável por uma tarefa específica, mantida por uma equipe, também conhecida como: **microsserviço**.
 
-> **Monolito:**
+> **Monolito:** Em engenharia de software, uma aplicação monolítica **descreve uma única aplicação de software em camadas no qual a interface de  usuário e código de acesso aos dados são combinados em um único programa a partir de uma única plataforma**. 
 >
-> **Microsserviço:**
+> **Microsserviço:** É uma abordagem arquitetônica e organizacional de desenvolvimento de software, na qual o software  consiste em pequenos serviços independentes que se comunicam usando API's bem definidas. Esses serviços pertencem a pequenas equipes de desenvolvimento autossuficientes.
 
 Com esta divisão, você deseja aumentar o desempenho, ser capaz de processar tarefas de forma assíncrona e compartilhar dados rapidamente entre os serviços. Você também vai querer executar várias instâncias de cada microsserviço abrangendo vários servidores para torná-lo altamente disponível em um ambiente de produção. Além disso, surgirão outras preocupações, como:
 
