@@ -18,6 +18,8 @@
 
 4. <a href="container.md" >Introdução a Containers</a>
 5. <a href="orquestrador.md" >Introdução a Orquestradores de Containers</a>
+   - <a href="orquestracao_pratica.md" >Docker Swarm na prática</a>
+   
 6. <a href="ci_cd.md" >Continuous Integration / Continuous Delivery (CI/CD)</a>
    - <a href="github_actions.md" >Introdução a Github Actions</a>
    - <a href="ci_cd_pratica.md" >CI/CD na prática</a>
