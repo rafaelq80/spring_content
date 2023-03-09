@@ -5,6 +5,7 @@
 	
 <h2><img src="https://i.imgur.com/PHgmbCh.png" title="source: imgur.com" width="40px"/>Preparação do Ambiente</h2>
 
+0. <a href="00_install_git.md" >Guia de Instalação - Git</a>
 1. <a href="01_install_java_17.md" >Guia de Instalação - Java 17</a>
 2. <a href="02_install_sts.md" >Guia de Instalação - STS</a>
 3. <a href="03_install_mysql.md" >Guia de Instalação - MySQL</a>
