@@ -59,35 +59,35 @@
 
 <div align="center"><img src="https://i.imgur.com/Iom1ZdV.png" title="source: imgur.com" /></div>
 
-14. Na janela **Choose a credential helper**, você poderá selecionar como o **Git** irá gerenciar os dados do usuário. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+15. Na janela **Choose a credential helper**, você poderá selecionar como o **Git** irá gerenciar os dados do usuário. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/OxOL4g1.png" title="source: imgur.com" /></div>
 
-15. Na janela **Choose extra options**, você poderá selecionar recursos extras do **Git**. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+16. Na janela **Choose extra options**, você poderá selecionar recursos extras do **Git**. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/1ifUWXU.png" title="source: imgur.com" /></div>
 
-16. Na janela **Configuring experimental options**, você poderá selecionar recursos experimentais (em teste) do **Git**. Mantenha a opção padrão (todas as opções desmarcadas), como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+17. Na janela **Configuring experimental options**, você poderá selecionar recursos experimentais (em teste) do **Git**. Mantenha a opção padrão (todas as opções desmarcadas), como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/2phNgD8.png" title="source: imgur.com" /></div>
 
-17. Aguarde a conclusão da instalação.
+18. Aguarde a conclusão da instalação.
 
 <div align="center"><img src="https://i.imgur.com/3bpvLK7.png" title="source: imgur.com" /></div>
 
-18. Assim que a instalação for concluída, na janela **Completing the Git Setup Wizard**, mantenha todas as opções desmarcadas e na sequência clique no botão **Finish**.
+19. Assim que a instalação for concluída, na janela **Completing the Git Setup Wizard**, mantenha todas as opções desmarcadas e na sequência clique no botão **Finish**.
 
 <div align="center"><img src="https://i.imgur.com/TCTKNpk.png" title="source: imgur.com" /></div>
 
-19. Na sequência será solicitado que você se conecte com o **Github**. Caso não seja solicitado após a instalação, ao enviar um arquivo para o Github pela primeira vez, o Git irá solicitar a autenticação. Clique no botão **Sign in with your browser**.
+20. Na sequência será solicitado que você se conecte com o **Github**. Caso não seja solicitado após a instalação, ao enviar um arquivo para o Github pela primeira vez, o Git irá solicitar a autenticação. Clique no botão **Sign in with your browser**.
 
 <div align="center"><img src="https://i.imgur.com/sRX8K2X.png" title="source: imgur.com" /></div>
 
-20. O seu Navegador da Internet será aberto e você será redirecionado para a página **Sign in to GitHub**, semelhante a imagem abaixo:
+21. O seu Navegador da Internet será aberto e você será redirecionado para a página **Sign in to GitHub**, semelhante a imagem abaixo:
 
 <div align="center"><img src="https://i.imgur.com/nFkKV6H.png" title="source: imgur.com" /></div>
 
-21. Digite o seu usuário e senha do Github para autenticar. Na sequência será exibida a janela abaixo, informando que a autenticação foi realizada com sucesso!
+22. Digite o seu usuário e senha do Github para autenticar. Na sequência será exibida a janela abaixo, informando que a autenticação foi realizada com sucesso!
 
 <div align="center"><img src="https://i.imgur.com/wI9eQWo.png" title="source: imgur.com" /></div>
 
