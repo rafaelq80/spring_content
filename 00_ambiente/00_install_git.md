@@ -1,58 +1,61 @@
 <h1>Guia de Instalação do GIT - Windows</h1>
 
-1. Abra o instalador do Git.
 
-2. Na janela **Information**, será exibida a licença do Git. Clique em **Next** para continuar.
+1. Faça o Download da Instalação do git através do endereço: https://git-scm.com/download/win
+
+2. Abra o instalador do Git.
+
+3. Na janela **Information**, será exibida a licença do Git. Clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/CPTTEa7.png" title="source: imgur.com" /></div>
 
-3. Na janela **Select Destination Location**, será definida a pasta onde o Git será instalado. Mantenha a pasta padrão, como mostra a imagem abaixo e clique em **Next** para continuar.
+4. Na janela **Select Destination Location**, será definida a pasta onde o Git será instalado. Mantenha a pasta padrão, como mostra a imagem abaixo e clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/K0ilc4z.png" title="source: imgur.com" /></div>
 
-4. Na janela **Select Components**, você pode selecionar os componentes do Git que serão instalados. Mantenha as opções da instalação padrão, como mostra a imagem abaixo e clique em **Next** para continuar.
+5. Na janela **Select Components**, você pode selecionar os componentes do Git que serão instalados. Mantenha as opções da instalação padrão, como mostra a imagem abaixo e clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/0zMspFf.png" title="source: imgur.com" /></div>
 
-5. Na janela **Select Start Menu Folder**, você pode indicar o nome da pasta no Menu Iniciar do Windows onde os atalhos do Git serão criados. Mantenha as opções da instalação padrão, como mostra a imagem abaixo e clique em **Next** para continuar.
+6. Na janela **Select Start Menu Folder**, você pode indicar o nome da pasta no Menu Iniciar do Windows onde os atalhos do Git serão criados. Mantenha as opções da instalação padrão, como mostra a imagem abaixo e clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/CSLmTGp.png" title="source: imgur.com" /></div>
 
-6. Na janela **Choosing the default editor used by Git**, você pode selecionar o Editor de Código (IDE) padrão do Git. Neste tutorial sugerimos utilizar o **Visual Studio Code** (caso esteja instalado), como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+7. Na janela **Choosing the default editor used by Git**, você pode selecionar o Editor de Código (IDE) padrão do Git. Neste tutorial sugerimos utilizar o **Visual Studio Code** (caso esteja instalado), como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/ygLVkYK.png" title="source: imgur.com" /></div>
 
 *Caso você não tenha o **Visual Studio Code** instalado na sua máquina, você pode deixar a opção padrão do instalador do Git e configurar manualmente depois de instalar o Visual Studio Code.*
 
-7. Na janela **Adjusting the name of the initial branch in new repositories**, você pode alterar o nome padrão de um novo repositório Git. Vamos alterar marcando a opção **Override the default branch name for new repositories** e indicar a palavra **main** como nome padrão para novos repositórios Git, como mostra a imagem abaixo e clique em **Next** para continuar.
+8. Na janela **Adjusting the name of the initial branch in new repositories**, você pode alterar o nome padrão de um novo repositório Git. Vamos alterar marcando a opção **Override the default branch name for new repositories** e indicar a palavra **main** como nome padrão para novos repositórios Git, como mostra a imagem abaixo e clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/qYNuggl.png" title="source: imgur.com" /></div>
 
-8. Na janela **Adjusting your PATH environment**, você pode indicar em quais Teminais os comandos do Git serão executados. Marque a opção **Git from the command line and also from 3rd-party software** para executar os comandos em todos os terminais disponíveis no Windows (CMD - Prompt de Comando do Windows, Power Shell, Git Bash, entre outros), como mostra a imagem abaixo e clique em **Next** para continuar.
+9. Na janela **Adjusting your PATH environment**, você pode indicar em quais Teminais os comandos do Git serão executados. Marque a opção **Git from the command line and also from 3rd-party software** para executar os comandos em todos os terminais disponíveis no Windows (CMD - Prompt de Comando do Windows, Power Shell, Git Bash, entre outros), como mostra a imagem abaixo e clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/t38sg5x.png" title="source: imgur.com" /></div>
 
-9. Na janela **Choosing the SSH executable**, você poderá selecionar qual cliente SSH (**Secure Socket Shell**) será utilizado. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+10. Na janela **Choosing the SSH executable**, você poderá selecionar qual cliente SSH (**Secure Socket Shell**) será utilizado. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/vUW4AxY.png" title="source: imgur.com" /></div>
 
 > **SSH** é a sigla  para **Secure Socket Shell, que é um dos protocolos específicos de  segurança de troca de arquivos entre cliente e servidor de Internet,  usando criptografia**. O objetivo do SSH é permitir que  pessoas desenvolvedoras ou outros usuários realizem alterações em sites e servidores utilizando uma conexão simples e segura.
 
-10. Na janela **Choosing HTTPS transport backend**, você poderá selecionar qual o protocolo **SSL** (**Secure Socket Layer**) será utilizado. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+11. Na janela **Choosing HTTPS transport backend**, você poderá selecionar qual o protocolo **SSL** (**Secure Socket Layer**) será utilizado. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/k8Gup5S.png" title="source: imgur.com" /></div>
 
-11. Na janela **Configuring the line ending conversions**, você poderá configurar como o Git irá tratar os arquivos de código. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+12. Na janela **Configuring the line ending conversions**, você poderá configurar como o Git irá tratar os arquivos de código. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/4ToP3Yr.png" title="source: imgur.com" /></div>
 
-12. Na janela **Configuring the terminal emulator to use with Git Bash**, você poderá selecionar como o Terminal do Git Bash será emulado no Windows. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+13. Na janela **Configuring the terminal emulator to use with Git Bash**, você poderá selecionar como o Terminal do Git Bash será emulado no Windows. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/JU0F715.png" title="source: imgur.com" /></div>
 
 *Como o Bash é um interpretador de comandos do mundo Unix/Linux, ele não será executado de forma nativa no Windows, ou seja, ele será emulado.*
 
-13. Na janela **Choose the default behavior of `git pull `**, você poderá selecionar como o comando **git pull** se comportará. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
+14. Na janela **Choose the default behavior of `git pull `**, você poderá selecionar como o comando **git pull** se comportará. Mantenha a opção padrão, como mostra a imagem abaixo e na sequência clique em **Next** para continuar.
 
 <div align="center"><img src="https://i.imgur.com/Iom1ZdV.png" title="source: imgur.com" /></div>
 
